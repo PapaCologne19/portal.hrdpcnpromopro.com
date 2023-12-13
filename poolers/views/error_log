@@ -1,0 +1,6 @@
+[05-Dec-2023 13:22:04 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/poolers/views/database.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/poolers/views/database.php on line 87
+[05-Dec-2023 13:22:37 Asia/Hong_Kong] PHP Notice:  Undefined index: status in /home/pcnpromopro/portal.hrdpcnpromopro.com/poolers/views/database.php on line 105
+[05-Dec-2023 13:22:40 Asia/Hong_Kong] PHP Notice:  Undefined index: status in /home/pcnpromopro/portal.hrdpcnpromopro.com/poolers/views/database.php on line 105
