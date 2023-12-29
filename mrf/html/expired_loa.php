@@ -118,7 +118,6 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                     <th class="text-center">Project Title</th>
                                                     <th class="text-center">Date Start</th>
                                                     <th class="text-center">Date End</th>
-                                                    <th class="text-center">Request Status</th>
                                                     <th class="text-center">Type</th>
                                                     <th class="text-center">Requested By</th>
                                                     <th class="text-center">Action</th>
@@ -139,6 +138,8 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                 AND employee.id = deployment.employee_id
                                                 AND request.request_status = 'DEPLOYED'
                                                 AND loa_end_date <= '$today'
+                                                AND loa_start_date != ''
+                                                AND loa_end_date != ''
                                                 AND request.requested_by_id = '" . $_SESSION['user_id'] . "'";
                                                 $result = $link->query($query);
                                                 while ($row = $result->fetch_assoc()) {
@@ -154,19 +155,18 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                         <td class="text-center"><?php echo $row['shortlist_title'] ?></td>
                                                         <td class="text-center"><?php echo $row['loa_start_date'] ?></td>
                                                         <td class="text-center"><?php echo $row['loa_end_date'] ?></td>
-                                                        <td class="text-center">
-                                                            <span class="badge rounded bg-success "><?php echo $row['request_status'] ?></span>
-                                                        </td>
                                                         <td class="text-center request_status">
                                                             <?php echo $row['signed_loa_status'] ?>
                                                         </td>
                                                         <td class="text-center"><?php echo $row['requested_by'] ?></td>
                                                         <td>
-                                                            <input type="hidden" class="deployment_id" value="<?php echo $row['deployment_id']; ?>">
-                                                            <input type="hidden" class="employee_id" value="<?php echo $row['employee_id']; ?>">
-                                                            <button type="button" class="btn btn-primary btn-sm btn_request_renewal" data-bs-toggle="tooltip" data-bs-title="Add LOA Renewal Requests">
-                                                                <i class="bi bi-folder-plus"></i>
-                                                            </button>
+                                                            <?php if($row['signed_loa_status'] === 'SUBMITTED'){?>
+                                                                <input type="hidden" class="deployment_id" value="<?php echo $row['deployment_id']; ?>">
+                                                                <input type="hidden" class="employee_id" value="<?php echo $row['employee_id']; ?>">
+                                                                <button type="button" class="btn btn-primary btn-sm btn_request_renewal" data-bs-toggle="tooltip" data-bs-title="Add LOA Renewal Requests">
+                                                                    <i class="bi bi-folder-plus"></i>
+                                                                </button>
+                                                            <?php } else{ echo ""; }?>
                                                         </td>
                                                     </tr>
                                                 <?php }

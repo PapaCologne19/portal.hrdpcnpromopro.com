@@ -99,13 +99,48 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                             <input type="text" name="area" id="area" class="form-control" required>
                                         </div>
                                         <div class="col-md-7 mt-3">
-                                            <label for="preferred_outlet" class="form-label">Preferred Outlet</label>
+                                            <label for="preferred_outlet" class="form-label">Intended To</label>
                                             <input list="preferred_outlets" name="preferred_outlet" id="preferred_outlet" class="form-control" required>
                                             <datalist id="preferred_outlets">
-                                                <option value="Option 1">
-                                                <option value="Option 2">
-                                                <option value="Option 3">
-                                                <option value="Option 4">
+                                                <?php 
+                                                    $query = "SELECT * FROM mrf WHERE is_deleted = '0' AND is_approve = '1'";
+                                                $result = $link->query($query);
+                                                while ($row = $result->fetch_assoc()) {
+                                                    $inputDate = $row['dt_now'];
+                                                    $timestamp = strtotime($inputDate);
+                                                    $formattedDate = date("F d, Y", $timestamp);
+                                                    $id = $row['id'];
+                                                    $project_title = $row['project_title'];
+                                                    $needed = $row['np_male'] + $row['np_female'];
+                                                    
+
+
+                                                    $selected = "SELECT mrf.*, project.*, resumes.*
+                                                        FROM mrf mrf, projects project, applicant_resume resumes 
+                                                        WHERE mrf.tracking = project.mrf_tracking 
+                                                        AND resumes.project_id = project.id 
+                                                        AND project.project_title = '$project_title' 
+                                                        AND project.mrf_id = '$id'
+                                                        AND resumes.status = 'QUALIFIED'";
+                                                    $selected_result = $link->query($selected);
+                                                    $select_row = $selected_result->fetch_assoc();
+
+                                                    $provided = $selected_result->num_rows;
+                                                    
+                                                    // For Deployed
+                                                    $select_deployed = "SELECT deployment.*, mrf.*, project.* 
+                                                    FROM deployment deployment, mrf mrf, projects project
+                                                    WHERE project.mrf_id = mrf.id
+                                                    AND project.project_title = deployment.shortlist_title
+                                                    AND deployment.shortlist_title = '$project_title'
+                                                    AND deployment.clearance = 'ACTIVE'";
+                                                    $select_deployed_result = $link->query($select_deployed);
+                                                    $deployed = $select_deployed_result->num_rows;
+                                                    $slots = $needed - $deployed;
+                                                    if($slots > 0){
+                                                ?>
+                                                <option value="<?php echo $project_title;?>">
+                                                <?php }}?>
                                             </datalist>
                                         </div>
 

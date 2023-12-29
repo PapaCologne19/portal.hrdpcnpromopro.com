@@ -26,11 +26,15 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                     <div class="content-wrapper">
                         <div class="container">
                             <div class="card">
-                                <div class="container">
-                                    <div class="col-md-3 mt-3 mx-3 mb-4">
-                                        <a href="create_loa.php" class="btn btn-info">Create LOA</a>
+                                <div class="container table-responsive">
+                                    <hr>
+                                    <div class="title justify-content-center align-items-center mx-auto text-center">
+                                        <h4 class="fs-4">
+                                            LIST OF LOA
+                                        </h4>
                                     </div>
-                                    <table class="table table-hover" id="example">
+                                    <hr>
+                                    <table class="table table-sm" id="example">
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
@@ -44,14 +48,16 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                         </thead>
                                         <tbody>
                                             <?php
-                                            $query = "SELECT loa_main.*, loa_files.*, DATE_FORMAT(date_modified, '%M %d %Y') AS date_modified
+                                            $query = "SELECT loa_main.*, 
+                                                loa_files.*, 
+                                                DATE_FORMAT(date_modified, '%M %d %Y') AS date_modified,
+                                                loa_main.id AS loa_main_id
                                                 FROM loa_maintenance_word loa_main, loa_files loa_files
                                                 WHERE loa_files.loa_main_id = loa_main.id";
                                             $result = $link->query($query);
                                             while ($row = $result->fetch_assoc()) {
                                             ?>
                                                 <tr>
-
                                                     <td><?php echo $row['id'] ?></td>
                                                     <td><?php echo $row['date_modified'] ?></td>
                                                     <td><?php echo $row['loa_name'] ?></td>
@@ -93,10 +99,43 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                                 </div>
                                                                 <div class="modal-body">
+                                                                    <?php 
+                                                                        $select = "SELECT loa_main.*, 
+                                                                                    loa_files.*, 
+                                                                                    DATE_FORMAT(date_modified, '%M %d %Y') AS date_modified,
+                                                                                    loa_main.id AS loa_main_id
+                                                                                    FROM loa_maintenance_word loa_main, loa_files loa_files
+                                                                                    WHERE loa_files.loa_main_id = loa_main.id
+                                                                                    AND loa_files.id = '" . $row['id'] . "'";
+                                                                        $select_result = $link->query($select);
+                                                                        $select_row = $select_result->fetch_assoc();
+                                                                        $select_id = $select_row['loa_main_id'];
+                                                                    ?>
                                                                     <form action="action.php" method="POST" class="form-group" enctype="multipart/form-data">
                                                                         <input type="hidden" name="loatemplate_id" value="<?php echo $row['id'] ?>">
-                                                                        <label for="loatemplate_file" class="form-label">LOA Template File</label>
-                                                                        <input type="file" name="loatemplate_file" id="loatemplate_file" class="form-control" required> 
+                                                                        <input type="hidden" name="select_id" value="<?php echo $select_id ?>">
+                                                                        <div class="col-md-12">
+                                                                            <label for="loatemplate_file" class="form-label">LOA Template File</label>
+                                                                            <input type="file" name="loatemplate_file" id="loatemplate_file" class="form-control" required>    
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <label for="loa_name" class="form-label">LOA Name</label>
+                                                                            <input type="text" name="loa_name" id="loa_name" class="form-control" value="<?php echo $select_row['loa_name'];?>">
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <label for="division" class="form-label">Division</label>
+                                                                            <select class="form-select" name="division" id="division">
+                                                                                <option value="<?php echo $select_row['division'];?>" selected disabled><?php echo $select_row['division'];?></option>
+                                                                                <?php 
+                                                                                $division = "SELECT * FROM divisions WHERE is_deleted = '0'";
+                                                                                $division_result = $link->query($division);
+                                                                                while($division_row = $division_result->fetch_assoc()){
+                                                                                ?>
+                                                                                <option value="<?php echo $division_row['description'];?>"><?php echo $division_row['description'];?></option>
+                                                                                <?php }?>
+                                                                            </select>
+                                                                        </div>
+                                                                         
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

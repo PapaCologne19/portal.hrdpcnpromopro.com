@@ -37,7 +37,6 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                     <table class="table table-hover" id="example">
                                         <thead>
                                             <tr>
-                                                <th>ID</th>
                                                 <th>Applicant Name</th>
                                                 <th>Resume File</th>
                                                 <th>Project Title</th>
@@ -61,8 +60,6 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                             while ($row = $result->fetch_assoc()) {
                                             ?>
                                                 <tr>
-
-                                                    <td><?php echo $row['id'] ?></td>
                                                     <td><?php echo $row['firstname'] . ", " . $row['middlename'] . " " . $row['lastname'] . $row['extension_name'] ?></td>
                                                     <td><?php echo $row['resume_file'] ?></td>
                                                     <td><?php echo $row['project_title'] ?></td>

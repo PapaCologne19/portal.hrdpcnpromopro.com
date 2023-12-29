@@ -83,7 +83,6 @@ if ($result) {
             $basic_pay = $row['basic_salary'];
 
             $outlet = $row['outlet'];
-            $outlet = $row['outlet'];
             $concatenatedText = '';
 
             if (!empty($outlet)) {
@@ -100,6 +99,26 @@ if ($result) {
 
                     // Remove the trailing comma and space
                     $concatenatedText = rtrim($concatenatedText, ', ');
+                }
+            }
+            
+            $previous_outlet = $row['previous_outlet'];
+            $concatenatedText2 = '';
+
+            if (!empty($previous_outlet)) {
+                $data = json_decode($previous_outlet, true);
+                if (!empty($data['ops'])) {
+                    foreach ($data['ops'] as $op) {
+                        if (isset($op['insert'])) {
+                            $text = trim($op['insert']);
+                            if (!empty($text)) {
+                                $concatenatedText2 .= $text . ', ';
+                            }
+                        }
+                    }
+
+                    // Remove the trailing comma and space
+                    $concatenatedText2 = rtrim($concatenatedText2, ', ');
                 }
             }
             $no_work_days = $row['no_of_days'];
@@ -135,6 +154,9 @@ if ($result) {
             $total_allowance = $communication_allowance + $transpo_meal_allowance + $internet_allowance + $ecola + $internet_allowance + $meal_allowance + $outbase_meal + $special_allowance + $position_allowance;
             $shortlist_id = $row['emp_id'];
             $loa_tracker = $row['locator'];
+            $effectivity_date = $row['effectivity_date'];
+            $noa_remarks = $row['noa_remarks'];
+            
             
             $title = $issued_year . "-" . $division . "-" . $loa_tracker . "-" . $shortlist_id;
             $file_name_docx = $title . "-" . $applicant_name . "-" . $client_name . "-" . $type . "-LOA";
@@ -179,7 +201,7 @@ if ($result) {
             $document->setValue('Value29', $tin_no);
             $document->setValue('Value30', $applicant_id);
 
-            $document->setValue('Value32', $applicant_contact);
+            
             $document->setValue('Value10a', $communication_allowance);
             $document->setValue('Value10b', $transpo_meal_allowance);
             $document->setValue('Value10c', $ecola);
@@ -190,7 +212,22 @@ if ($result) {
             $document->setValue('Value10h', $position_allowance);
             $document->setValue('TotalValue', $total_allowance);
             $document->setValue('Value31', $shortlist_id);
-            $document->setValue('Value33', $loa_tracker);
+            
+            if(!empty($row['effectivity_date']) && !empty($row['noa_remarks'])){
+                $e_date = date_create($effectivity_date);
+                $date_effectivity = date_format($e_date, 'F d, Y');
+                if($row['noa_remarks'] === "Lateral Transfer"){
+                    $later_noa_remarks = "Lateral Transfer from " . $concatenatedText2 . " to " . $concatenatedText; 
+                    $document->setValue('Value32', $later_noa_remarks);
+                } else{
+                    $document->setValue('Value32', $noa_remarks);  
+                }
+                
+                $document->setValue('Value33', $date_effectivity);
+            } else{
+                $document->setValue('Value32', $applicant_contact);
+                $document->setValue('Value33', $loa_tracker);
+            }
 
             // Save the document
             $document->save($destination_subfolder . ".docx");

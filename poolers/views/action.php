@@ -2,6 +2,15 @@
 session_start();
 require_once '../../connect.php';
 
+date_default_timezone_set('Asia/Manila');
+$date_now = date('Y-m-d H:i:s');
+
+$user_id = $_SESSION['user_id'];
+$user_division = $_SESSION['division'];
+$personnel = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+$user_type = $_SESSION['user_type'];
+
+// Submit Pool Request
 if (isset($_POST['submit_btn'])) {
     $lastname = chop(strtoupper($_POST['lastname']));
     $firstname = chop(strtoupper($_POST['firstname']));
@@ -72,6 +81,14 @@ if (isset($_POST['submit_btn'])) {
                 $history_result = $link->prepare($history);
                 $history_result->bind_param("ssssssssssssss", $lastname, $firstname, $middlename, $extension_name, $desired_position, $area, $preferred_outlet, $contact_number, $fileNamesStr, $destination_folder, $referred_by_id, $referred_by, $referred_by_division, $status);
                 if ($history_result->execute()) {
+                    
+                    $transaction = "Submit Pool Request";
+                    $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                    VALUES (?, ?, ?, ?, ?)";
+                    $transaction_log_result = $link->prepare($transaction_log);
+                    $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+                    $transaction_log_result->execute();
+                
                     $_SESSION['successMessage'] = "Success";
                 } else {
                     $_SESSION['errorMessage'] = "Error" . $link->error;

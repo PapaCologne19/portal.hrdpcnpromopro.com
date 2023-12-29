@@ -402,7 +402,7 @@ include '../../connect.php';
                                                                         <input type="hidden" name="id" id="id" value="<?php echo $row['id'] ?>">
                                                                         <div class="col-md-12">
                                                                             <label for="" class="form-label">Attach File/s (PDF Only)</label>
-                                                                            <input type="file" name="files[]" id="files" class="form-control" multiple required>
+                                                                            <input type="file" name="files[]" id="files" class="form-control" required>
                                                                         </div>
                                                                 </div>
                                                                 <div class="modal-footer">

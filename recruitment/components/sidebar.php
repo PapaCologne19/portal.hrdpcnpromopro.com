@@ -19,17 +19,18 @@
 </style>
 <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
   <div class="app-brand demo">
-    <a href="index.html" class="app-brand-link">
-      <span class="app-brand-logo demo">
-        <img src="../assets/img/elements/pcn.png" alt="" style="background-color: #6c757d !important;" width="5%">
-      </span>
-      <!-- <span class="app-brand-text demo menu-text fw-bolder ms-2">PCN</span> -->
-    </a>
+            <a href="index.php" class="app-brand-link justify-content-center text-center mx-auto">
+              <span class="app-brand-logo demo mb-3">
+                <img src="../assets/img/icons/brands/pcnlogo1.png" alt="PCN logo" style="background-color: #c2c7d0 !important; border-radius: 50px;">
+              </span>
+              <!-- <span class="app-brand-text demo menu-text fw-bolder ms-2">PCN</span> -->
+            </a>
 
-    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
-      <i class="bx bx-chevron-left bx-sm align-middle"></i>
-    </a>
-  </div>
+            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+              <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </a>
+          </div>
+<br>
 
   <div class="menu-inner-shadow"></div>
 
@@ -182,6 +183,20 @@
         <div data-i18n="Analytics">Print an Entry</div>
       </a>
     </li>
+    
+    <li class="menu-item">
+      <a href="recruitment_loa_database.php" class="menu-link">
+        <i class="bi bi-database" style="margin-right: 1rem;"></i>
+        <div data-i18n="Analytics">LOA Database</div>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="float.php" class="menu-link">
+        <i class="bi bi-person-exclamation" style="margin-right: 1rem;"></i>
+        <div data-i18n="Analytics">Float</div>
+      </a>
+    </li>
+    
     <!--<li class="menu-header small text-uppercase">-->
     <!--  <span class="menu-header-text">SHORTLISTING MENU</span>-->
     <!--</li>-->

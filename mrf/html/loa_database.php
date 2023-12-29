@@ -117,7 +117,8 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                         FROM employees employee, projects project, loa_requests request
                                         WHERE employee.id = request.employee_id
                                         AND project.id = request.project_id
-                                        AND request_status = 'PENDING'";
+                                        AND request_status = 'PENDING'
+                                        AND requested_by_id = '" . $_SESSION['user_id'] . "'";
                                         $result = $link->query($query);
                                         while ($row = $result->fetch_assoc()) {
                                         ?>

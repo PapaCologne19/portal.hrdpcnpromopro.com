@@ -2,7 +2,7 @@
 session_start();
 include("connect.php");
 
-date_default_timezone_set('Asia/Hong_Kong');
+date_default_timezone_set('Asia/Manila');
 $date = date('D : F d, Y');
 
 
@@ -39,11 +39,14 @@ if (isset($_POST['SubButton'])) {
             $_SESSION["user_id"] = $rowd["id"];
             $_SESSION["division"] = $rowd["fms"];
             $_SESSION["user_type"] = $rowd["typenya"];
-
-
-            $dtnow = date("m/d/Y");
-
-            $query3 = "INSERT INTO log (Username, Datelog, time, activitynya) VALUES('$Username','$dtnow',now(),'EWB login Accepted')";
+            $name = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+            $user_id = $_SESSION['user_id'];
+            
+            date_default_timezone_set('Asia/Manila');
+            $dtnow = date("m/d/Y H:i:s");
+            
+            $query3 = "INSERT INTO log (user_id, name, Username, Datelog, time, activitynya) 
+            VALUES('$user_id', '$name', '$Username','$dtnow', '$dtnow' ,'EWB login Accepted')";
             $result3 = mysqli_query($link, $query3);
 
             if ($result3) {
@@ -63,10 +66,13 @@ if (isset($_POST['SubButton'])) {
             $_SESSION["user_id"] = $rowd["id"];
             $_SESSION["division"] = $rowd["fms"];
             $_SESSION["user_type"] = $rowd["typenya"];
+            $name = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+            $user_id = $_SESSION['user_id'];
+            
+            date_default_timezone_set('Asia/Manila');
+            $dtnow = date("m/d/Y H:i:s");
 
-            $dtnow = date("m/d/Y");
-
-            $query4 = "INSERT INTO log (Username, Datelog, time, activitynya) VALUES('$Username','$dtnow',now(),'DEPLOYMENT login Accepted')";
+            $query4 = "INSERT INTO log (user_id, name, Username, Datelog, time, activitynya) VALUES('$user_id', '$name', '$Username','$dtnow',now(),'DEPLOYMENT login Accepted')";
             $result4  = mysqli_query($link, $query4);
 
             if ($result4) {
@@ -85,10 +91,13 @@ if (isset($_POST['SubButton'])) {
             $_SESSION["user_id"] = $rowd["id"];
             $_SESSION["division"] = $rowd["fms"];
             $_SESSION["user_type"] = $rowd["typenya"];
+            $name = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+            $user_id = $_SESSION['user_id'];
 
-            $dtnow = date("m/d/Y");
-
-            $query5 = "INSERT INTO log(Username, Datelog, time, activitynya) VALUES('$Username', '$dtnow', now(), 'RECRUITMENT login Accepted')";
+            date_default_timezone_set('Asia/Manila');
+            $dtnow = date("m/d/Y H:i:s");
+            
+            $query5 = "INSERT INTO log(user_id, name, Username, Datelog, time, activitynya) VALUES('$user_id', '$name', '$Username', '$dtnow', now(), 'RECRUITMENT login Accepted')";
             $result5 = mysqli_query($link, $query5);
 
             if ($result5) {
@@ -108,10 +117,13 @@ if (isset($_POST['SubButton'])) {
             $_SESSION["user_id"] = $rowd["id"];
             $_SESSION["division"] = $rowd["fms"];
             $_SESSION["user_type"] = $rowd["typenya"];
+            $name = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+            $user_id = $_SESSION['user_id'];
+            
+            date_default_timezone_set('Asia/Manila');
+            $dtnow = date("m/d/Y H:i:s");
 
-            $dtnow = date("m/d/Y");
-
-            $query5 = "INSERT INTO log(Username, Datelog, time, activitynya) VALUES('$Username', '$dtnow', now(), 'ADMIN login Accepted')";
+            $query5 = "INSERT INTO log(user_id, name, Username, Datelog, time, activitynya) VALUES('$user_id', '$name', '$Username', '$dtnow', now(), 'ADMIN login Accepted')";
             $result5 = mysqli_query($link, $query5);
 
             if ($result5) {
@@ -134,11 +146,13 @@ if (isset($_POST['SubButton'])) {
             $_SESSION["user_id"] = $rowd["id"];
             $_SESSION["division"] = $rowd["fms"];
             $_SESSION["user_type"] = $rowd["typenya"];
+            $name = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+            $user_id = $_SESSION['user_id'];
 
+            date_default_timezone_set('Asia/Manila');
+            $dtnow = date("m/d/Y H:i:s");
 
-            $dtnow = date("m/d/Y");
-
-            $query5 = "INSERT INTO log(Username, Datelog, time, activitynya) VALUES('$Username', '$dtnow', now(),'MRF login Accepted')";
+            $query5 = "INSERT INTO log(user_id, name, Username, Datelog, time, activitynya) VALUES('$user_id', '$name', '$Username', '$dtnow', now(),'MRF login Accepted')";
             $result5 = mysqli_query($link, $query5);
 
             if ($result5) {
@@ -160,11 +174,13 @@ if (isset($_POST['SubButton'])) {
             $_SESSION["user_id"] = $rowd["id"];
             $_SESSION["division"] = $rowd["fms"];
             $_SESSION["user_type"] = $rowd["typenya"];
+            $name = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+            $user_id = $_SESSION['user_id'];
 
+            date_default_timezone_set('Asia/Manila');
+            $dtnow = date("m/d/Y H:i:s");
 
-            $dtnow = date("m/d/Y");
-
-            $query5 = "INSERT INTO log(Username, Datelog, time, activitynya) VALUES('$Username', '$dtnow', now(),'MRF login Accepted')";
+            $query5 = "INSERT INTO log(user_id, name, Username, Datelog, time, activitynya) VALUES('$user_id', '$name', '$Username', '$dtnow', now(),'MRF login Accepted')";
             $result5 = mysqli_query($link, $query5);
 
             if ($result5) {
@@ -182,6 +198,7 @@ if (isset($_POST['SubButton'])) {
             $_SESSION["data"] = $rowd["id"];
             $_SESSION["division"] = $rowd["fms"];
             $dtnow = date("m/d/Y");
+            
 
             $query6 = "INSERT INTO log(Username, Datelog, time, activitynya) VALUES('$Username', '$dtnow', now(),'Cashier login Accepted')";
             $result6 = mysqli_query($link, $query6);
@@ -221,11 +238,14 @@ if (isset($_POST['SubButton'])) {
             $_SESSION["data"] = $rowd["id"];
             $_SESSION["darkk"] = "green";
             $_SESSION["user_id"] = $rowd["id"];
+            $name = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+            $user_id = $_SESSION['user_id'];
 
             //log control
-            $dtnow = date("m/d/Y");
+            date_default_timezone_set('Asia/Manila');
+            $dtnow = date("m/d/Y H:i:s");
 
-            $query8 = "INSERT INTO log(Username, Datelog, time, activitynya) VALUES('$Username', '$dtnow', now(), 'Admin login Accepted')";
+            $query8 = "INSERT INTO log(user_id, name, Username, Datelog, time, activitynya) VALUES('$user_id', '$name', '$Username', '$dtnow', now(), 'Admin login Accepted')";
             $result8 = mysqli_query($link, $query8);
 
             if ($result8) {
@@ -399,7 +419,7 @@ if (isset($_POST['SavenewUser1'])) {
         <label class="form-label">
           <font color="white">Username</font>
         </label>
-        <input type="username" name="Username" class="form-control username" placeholder="Please enter username" style="height:45px;width:250px;background: #445793 !important; color: white !important; " autofocus>
+        <input type="username" name="Username" class="form-control username" placeholder="Please enter username" style="height:45px;width:250px;background: #445793 !important; color: white !important; " autofocus required>
       </div>
 
 
@@ -407,7 +427,7 @@ if (isset($_POST['SavenewUser1'])) {
         <label class="form-label">
           <font color="white">Password</font>
         </label>
-        <input type="password" name="Password" class="form-control password" placeholder="Please enter password" style="height:45px;width:250px;background: #445793 !important; color: white !important; ">
+        <input type="password" name="Password" class="form-control password" placeholder="Please enter password" style="height:45px;width:250px;background: #445793 !important; color: white !important;" required>
       </div>
       <input type="submit" name="SubButton" value=" " class="loginButton">;
     </form>

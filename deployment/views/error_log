@@ -3405,3 +3405,511 @@ Stack trace:
 [12-Dec-2023 02:52:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
 [12-Dec-2023 02:52:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
 [13-Dec-2023 08:46:17 Asia/Manila] PHP Notice:  Undefined index: outbase_allowance in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 813
+[14-Dec-2023 08:06:30 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[14-Dec-2023 08:06:31 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[15-Dec-2023 09:19:18 Asia/Manila] PHP Notice:  Undefined index: project_title in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 546
+[15-Dec-2023 01:30:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:30:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:30:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:30:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:44:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:44:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:44:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:44:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:54:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:54:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:54:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 01:54:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:12:38 UTC] PHP Notice:  Undefined index: regCode  in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/employee_information.php on line 156
+[15-Dec-2023 02:23:53 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[15-Dec-2023 02:24:08 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[16-Dec-2023 00:35:07 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[16-Dec-2023 01:00:58 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/components/navbar.php on line 70
+[16-Dec-2023 01:00:58 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/components/navbar.php on line 70
+[16-Dec-2023 01:00:58 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/components/navbar.php on line 71
+[16-Dec-2023 01:00:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[16-Dec-2023 01:00:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[16-Dec-2023 01:00:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[16-Dec-2023 01:00:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[18-Dec-2023 05:11:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[18-Dec-2023 05:11:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[18-Dec-2023 05:11:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[18-Dec-2023 05:11:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[19-Dec-2023 02:47:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 85
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 91
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 91
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 152
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Notice:  Undefined variable: con in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 266
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 266
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 267
+[19-Dec-2023 10:47:47 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:1) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 358
+[19-Dec-2023 02:50:58 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 86
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 10:50:58 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:1) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 359
+[19-Dec-2023 02:51:29 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 86
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 10:51:29 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 02:51:54 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 86
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 10:51:54 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 02:54:17 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 86
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 92
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 153
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 181
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Notice:  Undefined variable: con in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 267
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 267
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 268
+[19-Dec-2023 10:54:17 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:1) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 359
+[19-Dec-2023 11:00:10 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 156
+[19-Dec-2023 11:00:10 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 184
+[19-Dec-2023 11:00:23 Asia/Manila] PHP Notice:  Undefined variable: con in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 270
+[19-Dec-2023 11:00:23 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 270
+[19-Dec-2023 11:00:23 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 271
+[19-Dec-2023 11:00:23 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:88) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 362
+[19-Dec-2023 11:07:54 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 155
+[19-Dec-2023 11:07:54 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 183
+[19-Dec-2023 11:07:55 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:87) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 362
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 155
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 183
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: shortlist_title1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 23
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: appno1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 24
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: date_shortlisted1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 25
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: app_id1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 26
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: employee_id1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 27
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: sss1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 28
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: philhealth1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 29
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: pagibig1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 30
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: tin1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 31
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: address1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 32
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: contact_number1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 33
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: loa_status1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 34
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: type1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 35
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: project_start_date1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 36
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: loa_start_date1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 37
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: loa_end_date1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 38
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: division1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 39
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: category1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 40
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: locator1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 41
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: client_name1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 42
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: place_assigned1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 43
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: address_assigned1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 44
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: channel1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 45
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: department1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 46
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: employment_status1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 47
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: job_title1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 48
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: loa_template1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 49
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: remarks_2011 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 50
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: basic_salary1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 51
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: ecola1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 52
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: communication_allowance1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 53
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: transportation_allowance1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 54
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: internet_allowance1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 55
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: meal_allowance1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 56
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: outbase_meal1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 57
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: special_allowance1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 58
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: position_allowance1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 59
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: deployment_remarks1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 60
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: no_of_days1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 61
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: outlet1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 62
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: supervisor1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 63
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: field_supervisor1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 64
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: field_designation1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 65
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: deployment_personnel1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 66
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: deployment_designation1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 67
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: project_supervisor1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 68
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: projectSupervisor_deployment1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 69
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: head1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 70
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: head_designation1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 71
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: emp_id1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 72
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: clearance1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 73
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: loa_folder_path1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 74
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: signed_loa_file1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 75
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: signed_loa_status1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 76
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: signed_loa_approved_by1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 77
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: id_remarks1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 78
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: date_created1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 79
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: date_return1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 80
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Notice:  Undefined index: is_deleted1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 81
+[19-Dec-2023 11:41:37 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:296) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 362
+[19-Dec-2023 12:13:37 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 164
+[19-Dec-2023 12:13:37 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 192
+[19-Dec-2023 04:28:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 3
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 9
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 9
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 10
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 10
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 11
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 11
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 11
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 11
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 12
+[19-Dec-2023 12:28:53 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 12
+[19-Dec-2023 12:30:39 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 162
+[19-Dec-2023 12:30:39 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 190
+[19-Dec-2023 12:32:22 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 162
+[19-Dec-2023 12:32:22 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 190
+[19-Dec-2023 12:32:22 Asia/Manila] PHP Notice:  Undefined variable: response in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 355
+[19-Dec-2023 12:34:38 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 166
+[19-Dec-2023 12:34:38 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 194
+[19-Dec-2023 12:34:38 Asia/Manila] PHP Notice:  Undefined variable: response in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 359
+[19-Dec-2023 12:39:02 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 167
+[19-Dec-2023 12:39:02 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 195
+[19-Dec-2023 12:39:02 Asia/Manila] PHP Notice:  Undefined variable: response in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 360
+[19-Dec-2023 04:43:41 UTC] PHP Notice:  Undefined index: shortlist_title in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/deploy_applicants.php on line 53
+[19-Dec-2023 04:43:41 UTC] PHP Notice:  Undefined index: shortlist_title in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/deploy_applicants.php on line 54
+[19-Dec-2023 12:45:33 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 165
+[19-Dec-2023 12:45:33 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 193
+[19-Dec-2023 12:45:33 Asia/Manila] PHP Notice:  Undefined variable: response in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 358
+[19-Dec-2023 04:53:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 369
+[19-Dec-2023 04:54:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 370
+[19-Dec-2023 04:54:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 370
+[19-Dec-2023 04:55:01 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 370
+[19-Dec-2023 04:56:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 365
+[19-Dec-2023 04:56:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 367
+[19-Dec-2023 04:56:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 367
+[19-Dec-2023 04:56:38 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 367
+[19-Dec-2023 04:56:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 367
+[19-Dec-2023 04:56:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 367
+[19-Dec-2023 05:02:26 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 87
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 96
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 96
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 154
+[19-Dec-2023 13:02:26 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 182
+[19-Dec-2023 13:02:27 Asia/Manila] PHP Notice:  Undefined variable: con in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 268
+[19-Dec-2023 13:02:27 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 268
+[19-Dec-2023 13:02:27 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 269
+[19-Dec-2023 13:02:27 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:1) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 368
+[19-Dec-2023 05:04:10 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 87
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 96
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 96
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 154
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 182
+[19-Dec-2023 13:04:10 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:1) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 368
+[19-Dec-2023 05:10:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 87
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 93
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 94
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 95
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 96
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 96
+[19-Dec-2023 13:10:39 Asia/Manila] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php:1) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 368
+[19-Dec-2023 13:19:38 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 168
+[19-Dec-2023 13:19:38 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 196
+[19-Dec-2023 13:19:39 Asia/Manila] PHP Notice:  Undefined variable: response in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 367
+[19-Dec-2023 13:26:52 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 168
+[19-Dec-2023 13:26:52 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 196
+[19-Dec-2023 13:26:52 Asia/Manila] PHP Notice:  Undefined variable: response in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 367
+[19-Dec-2023 13:28:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 168
+[19-Dec-2023 13:28:47 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 196
+[19-Dec-2023 13:28:47 Asia/Manila] PHP Notice:  Undefined variable: response in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 367
+[19-Dec-2023 13:35:27 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 168
+[19-Dec-2023 13:35:27 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 196
+[19-Dec-2023 13:39:25 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 168
+[19-Dec-2023 13:39:25 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 196
+[19-Dec-2023 13:39:25 Asia/Manila] PHP Notice:  Undefined index: successMessage in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 366
+[19-Dec-2023 13:39:25 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 368
+[19-Dec-2023 13:39:25 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 371
+[19-Dec-2023 13:45:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 173
+[19-Dec-2023 13:45:58 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 201
+[19-Dec-2023 14:33:59 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 179
+[19-Dec-2023 14:33:59 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 207
+[19-Dec-2023 14:38:16 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 179
+[19-Dec-2023 14:38:16 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 207
+[19-Dec-2023 14:52:53 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 109
+[19-Dec-2023 14:52:53 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 137
+[19-Dec-2023 14:54:56 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 109
+[19-Dec-2023 14:54:56 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 137
+[19-Dec-2023 14:56:48 Asia/Manila] PHP Notice:  Undefined variable: data in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 50
+[19-Dec-2023 14:56:48 Asia/Manila] PHP Warning:  http_build_query() expects parameter 1 to be array, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 20
+[19-Dec-2023 14:58:19 Asia/Manila] PHP Notice:  Undefined variable: data in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 50
+[19-Dec-2023 14:58:19 Asia/Manila] PHP Warning:  http_build_query() expects parameter 1 to be array, null given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 20
+[19-Dec-2023 14:58:22 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 110
+[19-Dec-2023 14:58:22 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 138
+[19-Dec-2023 14:58:23 Asia/Manila] PHP Notice:  Undefined variable: shortlist_title1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 302
+[19-Dec-2023 15:01:40 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 108
+[19-Dec-2023 15:01:40 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 136
+[19-Dec-2023 15:01:42 Asia/Manila] PHP Notice:  Undefined variable: shortlist_title1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 300
+[19-Dec-2023 15:06:43 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 108
+[19-Dec-2023 15:06:43 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 136
+[19-Dec-2023 15:06:43 Asia/Manila] PHP Notice:  Undefined index: outlet in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 231
+[19-Dec-2023 15:06:46 Asia/Manila] PHP Notice:  Undefined variable: shortlist_title1 in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 318
+[19-Dec-2023 15:09:12 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 108
+[19-Dec-2023 15:09:12 Asia/Manila] PHP Warning:  mkdir(): File exists in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 136
+[19-Dec-2023 16:18:09 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 108
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 36
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 42
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 43
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 44
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 45
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 46
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 48
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 71
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 80
+[19-Dec-2023 08:19:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/set_loa_for_applicants.php on line 84
+[20-Dec-2023 01:58:29 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[20-Dec-2023 01:58:33 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[20-Dec-2023 01:59:03 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[21-Dec-2023 06:21:18 UTC] PHP Notice:  Undefined variable: sign in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/create_id.php on line 548
+[22-Dec-2023 01:24:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 01:24:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 01:24:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 01:24:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/print_idcard.php:683) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/print_idcard.php on line 686
+[22-Dec-2023 01:24:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/print_idcard.php:683) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/print_idcard.php on line 687
+[22-Dec-2023 03:45:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 03:45:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 03:45:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 03:45:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 03:45:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 03:45:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:17:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:17:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:17:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:19:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:19:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:19:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:19:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:19:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:19:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:20:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:20:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:20:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:37:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:37:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:37:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 12:40:07 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 898
+[22-Dec-2023 12:40:07 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 899
+[22-Dec-2023 04:40:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:40:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:40:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 12:40:55 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 898
+[22-Dec-2023 12:40:55 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 899
+[22-Dec-2023 04:40:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:40:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:40:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:41:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:41:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:41:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:52:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:52:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:52:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:52:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:52:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 04:52:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 06:13:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 06:13:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 06:13:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 06:13:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 06:13:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[22-Dec-2023 06:13:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:31:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:31:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:31:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:32:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/print_idcard.php:683) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/print_idcard.php on line 686
+[27-Dec-2023 01:32:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/print_idcard.php:683) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/print_idcard.php on line 687
+[27-Dec-2023 01:36:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:36:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:36:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:36:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:36:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:36:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:38:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:38:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:38:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:40:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:40:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:40:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:40:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:40:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:40:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:45:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:45:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:45:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:47:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:47:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 01:47:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:32:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:32:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:32:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:42:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:42:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:42:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:42:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:42:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 02:42:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 03:15:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 03:15:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 03:15:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 03:16:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 03:16:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 03:16:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 11:22:14 Asia/Manila] PHP Warning:  mkdir(): No such file or directory in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 421
+[27-Dec-2023 03:22:21 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 03:22:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 11:47:32 Asia/Manila] PHP Notice:  Undefined index: outbase_allowance in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 966
+[27-Dec-2023 03:49:52 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 03:49:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 03:49:52 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 03:49:52 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 03:49:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 03:49:52 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 03:53:04 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 03:53:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 03:53:04 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 04:01:31 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:01:33 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:01:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 04:01:33 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 04:03:22 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:03:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 04:03:22 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 04:05:08 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:05:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 04:05:08 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 04:08:35 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:08:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 04:08:35 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 04:10:55 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:10:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 04:10:55 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 04:17:06 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:17:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 04:17:06 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 04:18:15 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:19:08 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:19:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 04:19:08 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 04:21:32 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 04:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 04:21:32 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 05:19:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 05:19:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_database.php on line 318
+[27-Dec-2023 05:21:01 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 05:21:24 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 05:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 05:21:24 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 05:23:17 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 05:23:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 05:23:17 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 05:23:41 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 05:23:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 05:23:41 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 05:38:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/loa_renewal_requests.php on line 312
+[27-Dec-2023 13:46:17 Asia/Manila] PHP Notice:  Undefined index: outbase_allowance in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 966
+[27-Dec-2023 06:26:10 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 06:26:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 06:26:10 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 06:27:08 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[27-Dec-2023 06:27:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[27-Dec-2023 06:27:08 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[27-Dec-2023 15:07:06 Asia/Manila] PHP Notice:  Undefined index: status in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 1097
+[29-Dec-2023 14:56:11 Asia/Manila] PHP Notice:  Undefined index: status in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 1392
+[29-Dec-2023 14:57:14 Asia/Manila] PHP Notice:  Undefined index: status in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 1392
+[29-Dec-2023 14:58:12 Asia/Manila] PHP Notice:  Undefined index: status in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 1392
+[29-Dec-2023 15:05:44 Asia/Manila] PHP Notice:  Undefined index: status in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 1392
+[29-Dec-2023 15:09:41 Asia/Manila] PHP Notice:  Undefined index: status in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/action.php on line 1393
+[29-Dec-2023 07:14:35 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[29-Dec-2023 07:14:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[29-Dec-2023 07:14:35 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 81
+[29-Dec-2023 07:14:35 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 82
+[29-Dec-2023 07:14:35 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 135
+[29-Dec-2023 07:20:29 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[29-Dec-2023 07:20:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[29-Dec-2023 07:20:29 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 81
+[29-Dec-2023 07:20:29 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 82
+[29-Dec-2023 07:20:29 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 154
+[29-Dec-2023 07:21:13 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[29-Dec-2023 07:21:13 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 154
+[29-Dec-2023 07:22:19 UTC] PHP Parse error:  syntax error, unexpected '");' (T_CONSTANT_ENCAPSED_STRING) in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 239
+[29-Dec-2023 07:23:44 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[29-Dec-2023 07:23:44 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 154
+[29-Dec-2023 07:24:52 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[29-Dec-2023 07:24:52 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 154
+[29-Dec-2023 07:25:14 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[29-Dec-2023 07:25:14 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 154
+[29-Dec-2023 07:25:43 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[29-Dec-2023 07:25:43 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 154
+[29-Dec-2023 07:26:11 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11
+[29-Dec-2023 07:26:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 54
+[29-Dec-2023 07:26:11 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 81
+[29-Dec-2023 07:26:11 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 82
+[29-Dec-2023 07:26:11 UTC] PHP Warning:  A non-numeric value encountered in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 154
+[29-Dec-2023 07:26:57 UTC] PHP Notice:  Undefined index: deployment_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/deployment/views/download_loa.php on line 11

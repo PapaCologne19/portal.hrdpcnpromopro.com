@@ -432,3 +432,297 @@ Stack trace:
 [11-Dec-2023 08:48:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 129
 [11-Dec-2023 08:49:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
 [11-Dec-2023 08:49:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[18-Dec-2023 05:07:56 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 05:07:56 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 05:07:56 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 05:08:46 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 05:08:46 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 05:08:46 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 05:09:27 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 05:09:27 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 05:09:27 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 05:09:41 UTC] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 64
+[18-Dec-2023 05:09:41 UTC] PHP Notice:  Undefined index: folder_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 65
+[18-Dec-2023 05:09:41 UTC] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 135
+[18-Dec-2023 05:09:41 UTC] PHP Notice:  Undefined index: folder_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 136
+[18-Dec-2023 05:09:41 UTC] PHP Notice:  Undefined index: folder_name in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 137
+[18-Dec-2023 05:09:54 UTC] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 64
+[18-Dec-2023 05:09:54 UTC] PHP Notice:  Undefined index: folder_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 65
+[18-Dec-2023 05:09:54 UTC] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 135
+[18-Dec-2023 05:09:54 UTC] PHP Notice:  Undefined index: folder_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 136
+[18-Dec-2023 05:09:54 UTC] PHP Notice:  Undefined index: folder_name in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 137
+[18-Dec-2023 05:09:56 UTC] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 64
+[18-Dec-2023 05:09:56 UTC] PHP Notice:  Undefined index: folder_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 65
+[18-Dec-2023 05:09:56 UTC] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 135
+[18-Dec-2023 05:09:56 UTC] PHP Notice:  Undefined index: folder_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 136
+[18-Dec-2023 05:09:56 UTC] PHP Notice:  Undefined index: folder_name in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 137
+[18-Dec-2023 05:23:56 UTC] PHP Notice:  Undefined index: project_date_start in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 354
+[18-Dec-2023 05:23:56 UTC] PHP Notice:  Undefined index: project_date_start in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 354
+[18-Dec-2023 05:23:56 UTC] PHP Notice:  Undefined index: project_date_start in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 354
+[18-Dec-2023 05:23:56 UTC] PHP Notice:  Undefined index: project_date_start in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 354
+[18-Dec-2023 05:23:59 UTC] PHP Notice:  Undefined index: project_date_start in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 354
+[18-Dec-2023 05:23:59 UTC] PHP Notice:  Undefined index: project_date_start in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 354
+[18-Dec-2023 05:23:59 UTC] PHP Notice:  Undefined index: project_date_start in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 354
+[18-Dec-2023 05:23:59 UTC] PHP Notice:  Undefined index: project_date_start in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 354
+[18-Dec-2023 07:33:36 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:33:36 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:33:36 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:33:39 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:33:39 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:33:39 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:33:57 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:33:57 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:33:57 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:34:49 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:34:49 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:34:49 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:34:56 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:34:56 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:34:56 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:37:16 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:37:16 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:37:16 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:37:33 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:37:33 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:37:33 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:38:29 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:38:29 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:38:29 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:38:30 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:38:30 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:38:30 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:38:31 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:38:31 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:38:31 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:38:35 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:38:35 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:38:35 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:39:34 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:39:34 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:39:34 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:39:40 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:39:40 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:39:40 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:57:21 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:57:21 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:57:21 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 07:57:21 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:57:21 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 07:57:21 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 08:33:57 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 08:33:57 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 08:33:57 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 08:34:34 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 08:34:34 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 08:34:34 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 08:34:36 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 08:34:36 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 08:34:36 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[18-Dec-2023 08:37:43 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 08:37:43 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[18-Dec-2023 08:37:43 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[19-Dec-2023 00:21:15 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[19-Dec-2023 00:21:15 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[19-Dec-2023 00:21:15 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[19-Dec-2023 02:26:41 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[19-Dec-2023 02:26:41 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[19-Dec-2023 02:26:41 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[20-Dec-2023 05:34:32 UTC] PHP Notice:  Undefined index: effectivity_date in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:34:32 UTC] PHP Notice:  Undefined index: reason in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:34:33 UTC] PHP Notice:  Undefined index: effectivity_date in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:34:33 UTC] PHP Notice:  Undefined index: reason in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:35:56 UTC] PHP Notice:  Undefined index: date_floated in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:35:56 UTC] PHP Notice:  Undefined index: reason_for_floating in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:35:58 UTC] PHP Notice:  Undefined index: date_floated in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:35:58 UTC] PHP Notice:  Undefined index: reason_for_floating in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:35:59 UTC] PHP Notice:  Undefined index: date_floated in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:35:59 UTC] PHP Notice:  Undefined index: reason_for_floating in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:36:00 UTC] PHP Notice:  Undefined index: date_floated in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:36:00 UTC] PHP Notice:  Undefined index: reason_for_floating in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:36:01 UTC] PHP Notice:  Undefined index: date_floated in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:36:01 UTC] PHP Notice:  Undefined index: reason_for_floating in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:36:11 UTC] PHP Notice:  Undefined index: date_floated in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:36:11 UTC] PHP Notice:  Undefined index: reason_for_floating in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:36:12 UTC] PHP Notice:  Undefined index: date_floated in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:36:12 UTC] PHP Notice:  Undefined index: reason_for_floating in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:36:12 UTC] PHP Notice:  Undefined index: date_floated in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 314
+[20-Dec-2023 05:36:12 UTC] PHP Notice:  Undefined index: reason_for_floating in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 315
+[20-Dec-2023 05:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:37:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:38:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:38:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:38:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:39:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:39:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:40:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:40:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:282
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 282
+[20-Dec-2023 05:42:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:285
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 285
+[20-Dec-2023 05:42:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:285
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 285
+[20-Dec-2023 05:42:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php:285
+Stack trace:
+#0 {main}
+  thrown in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 285
+[20-Dec-2023 23:27:31 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[20-Dec-2023 23:27:31 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[20-Dec-2023 23:27:31 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[21-Dec-2023 05:29:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[21-Dec-2023 05:29:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[21-Dec-2023 05:29:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 137
+[21-Dec-2023 05:29:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[21-Dec-2023 05:29:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[21-Dec-2023 05:29:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 137
+[21-Dec-2023 05:29:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[21-Dec-2023 05:30:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[21-Dec-2023 05:30:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 137
+[21-Dec-2023 05:30:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[25-Dec-2023 02:16:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[25-Dec-2023 02:16:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 137
+[25-Dec-2023 02:16:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/accept_mrf.php on line 134
+[28-Dec-2023 06:18:34 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/recruitment_loa_database.php on line 282
+[28-Dec-2023 06:18:34 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/recruitment_loa_database.php on line 283
+[28-Dec-2023 06:35:57 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/recruitment_loa_database.php on line 282
+[28-Dec-2023 06:35:57 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, bool given in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/recruitment_loa_database.php on line 283
+[28-Dec-2023 07:57:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 07:57:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 07:58:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 07:58:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 07:58:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 07:59:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 07:59:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 08:02:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 08:19:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 08:21:44 UTC] PHP Notice:  Undefined variable: row in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 13
+[28-Dec-2023 08:21:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 13
+[28-Dec-2023 08:21:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 08:33:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 08:34:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 08:34:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 08:55:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 703
+[28-Dec-2023 23:47:33 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[28-Dec-2023 23:47:33 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[28-Dec-2023 23:47:33 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:36:22 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:36:22 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:36:22 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:36:31 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:36:31 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:36:31 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:45:58 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:45:58 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:45:58 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:45:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 681
+[29-Dec-2023 02:45:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 687
+[29-Dec-2023 02:45:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 691
+[29-Dec-2023 02:45:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 697
+[29-Dec-2023 02:46:18 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:46:18 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:46:18 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:46:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 681
+[29-Dec-2023 02:46:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 687
+[29-Dec-2023 02:46:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 691
+[29-Dec-2023 02:46:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 697
+[29-Dec-2023 02:46:38 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:46:38 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:46:38 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:46:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 681
+[29-Dec-2023 02:46:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 687
+[29-Dec-2023 02:46:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 691
+[29-Dec-2023 02:46:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 697
+[29-Dec-2023 02:46:41 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:46:41 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:46:41 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:46:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 681
+[29-Dec-2023 02:46:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 687
+[29-Dec-2023 02:46:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 691
+[29-Dec-2023 02:46:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 697
+[29-Dec-2023 02:47:34 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:47:34 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:47:34 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:47:38 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:47:38 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:47:38 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:52:20 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:52:20 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:52:20 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:52:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 681
+[29-Dec-2023 02:52:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 687
+[29-Dec-2023 02:52:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 691
+[29-Dec-2023 02:52:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 697
+[29-Dec-2023 02:52:26 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:52:26 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:52:26 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:52:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 681
+[29-Dec-2023 02:52:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 687
+[29-Dec-2023 02:52:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 691
+[29-Dec-2023 02:52:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/float.php on line 697
+[29-Dec-2023 02:56:45 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:56:45 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:56:45 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:57:00 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:57:00 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:57:00 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:59:28 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:59:28 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:59:28 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 02:59:37 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:59:37 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 02:59:37 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: user_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 9
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: division in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 10
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 11
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 11
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 12
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: outlet in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 2237
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: user_id in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 2239
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 2240
+[29-Dec-2023 11:01:03 Asia/Manila] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 2240
+[29-Dec-2023 03:01:04 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 03:01:04 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 03:01:04 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 03:01:35 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 03:01:35 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 03:01:35 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 03:01:36 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 03:01:36 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 03:01:36 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 03:01:59 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 03:01:59 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 03:01:59 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 11:04:56 Asia/Manila] PHP Notice:  Undefined index: outlet in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 2237
+[29-Dec-2023 05:47:54 UTC] PHP Notice:  Undefined index: firstname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 05:47:54 UTC] PHP Notice:  Undefined index: lastname in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 70
+[29-Dec-2023 05:47:54 UTC] PHP Notice:  Undefined index: user_type in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/components/navbar.php on line 71
+[29-Dec-2023 13:59:38 Asia/Manila] PHP Notice:  Undefined index: outlet in /home/pcnpromopro/portal.hrdpcnpromopro.com/recruitment/views/action.php on line 2237

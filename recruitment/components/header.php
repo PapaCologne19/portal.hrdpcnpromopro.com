@@ -48,6 +48,15 @@
 <script src="../../node_modules/jquery-datetimepicker/jquery.js"></script>
 <script src="../../node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
 
+<link rel='stylesheet' href='//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css'>
+<script src='//code.jquery.com/jquery-1.12.4.js'></script>
+<script src='//code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js'></script>
+
+<!-- Main Quill library -->
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
 
 
 

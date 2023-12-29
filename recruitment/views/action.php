@@ -1877,6 +1877,14 @@ if(isset($_POST['undo_buffer_button_click'])){
     $result = $link->prepare($query);
     $result->bind_param("ssi", $status, $is_deleted, $bufferID);
     if($result->execute()){
+        
+        $transaction = "Undo Buffer " . $bufferID;
+            $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+            VALUES (?, ?, ?, ?, ?)";
+            $transaction_log_result = $link->prepare($transaction_log);
+            $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+            $transaction_log_result->execute();
+            
         $_SESSION['successMessage'] = "Success";
     }
     else{
@@ -1921,6 +1929,13 @@ if (isset($_POST['pass_pool_button_click'])) {
             $history_result = $link->prepare($history);
             $history_result->bind_param("ssssssssssssssss", $lastname, $firstname, $middlename, $extension_name, $desired_position, $area, $preferred_outlet, $contact_number, $resume_file, $resume_location, $referred_by_id, $referred_by, $referred_by_division, $approved_by, $date_approved, $status);
             if ($history_result->execute()) {
+                $transaction = "Passed Pool Request";
+                $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                VALUES (?, ?, ?, ?, ?)";
+                $transaction_log_result = $link->prepare($transaction_log);
+                $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+                $transaction_log_result->execute();
+            
                 $_SESSION['successMessage'] = "Success";
             } else {
                 $_SESSION['errorMessage'] = "Error" . $link->error;
@@ -1968,6 +1983,13 @@ if (isset($_POST['reject_pool_button_click'])) {
             $history_result = $link->prepare($history);
             $history_result->bind_param("ssssssssssssssss", $lastname, $firstname, $middlename, $extension_name, $desired_position, $area, $preferred_outlet, $contact_number, $resume_file, $resume_location, $referred_by_id, $referred_by, $referred_by_division, $approved_by, $date_approved, $status);
             if ($history_result->execute()) {
+                $transaction = "Rejected Pool Request";
+                $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                VALUES (?, ?, ?, ?, ?)";
+                $transaction_log_result = $link->prepare($transaction_log);
+                $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+                $transaction_log_result->execute();
+                
                 $_SESSION['successMessage'] = "Success";
             } else {
                 $_SESSION['errorMessage'] = "Error" . $link->error;
@@ -2015,6 +2037,13 @@ if (isset($_POST['deploy_pool_button_click'])) {
             $history_result = $link->prepare($history);
             $history_result->bind_param("ssssssssssssssss", $lastname, $firstname, $middlename, $extension_name, $desired_position, $area, $preferred_outlet, $contact_number, $resume_file, $resume_location, $referred_by_id, $referred_by, $referred_by_division, $approved_by, $date_approved, $status);
             if ($history_result->execute()) {
+                $transaction = "Deployed Pool Request";
+                $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                VALUES (?, ?, ?, ?, ?)";
+                $transaction_log_result = $link->prepare($transaction_log);
+                $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+                $transaction_log_result->execute();
+                
                 $_SESSION['successMessage'] = "Success";
             } else {
                 $_SESSION['errorMessage'] = "Error" . $link->error;
@@ -2062,6 +2091,13 @@ if (isset($_POST['undo_pool_button_click'])) {
             $history_result = $link->prepare($history);
             $history_result->bind_param("ssssssssssssssss", $lastname, $firstname, $middlename, $extension_name, $desired_position, $area, $preferred_outlet, $contact_number, $resume_file, $resume_location, $referred_by_id, $referred_by, $referred_by_division, $approved_by, $date_approved, $status);
             if ($history_result->execute()) {
+                $transaction = "Undo UNreachable Pool " . $poolID;
+                $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                VALUES (?, ?, ?, ?, ?)";
+                $transaction_log_result = $link->prepare($transaction_log);
+                $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+                $transaction_log_result->execute();
+                
                 $_SESSION['successMessage'] = "Success";
             } else {
                 $_SESSION['errorMessage'] = "Error" . $link->error;
@@ -2071,5 +2107,173 @@ if (isset($_POST['undo_pool_button_click'])) {
         $_SESSION['errorMessage'] = "Error";
     }
     header("Location: pooler_resume.php");
+    exit(0);
+}
+
+// For Floating Employees
+if(isset($_POST['floatButton'])){
+    $deployment_id = $_POST['deployment_id'];
+    $employee_id = $_POST['employee_id'];
+    $project_title = $_POST['project_title'];
+    $reason_for_floating = $_POST['reason_for_floating'];
+    $effectivity_date = $_POST['effectivity_date'];
+    $clearance = "FLOATING";
+    $floated_by = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+
+    
+    $query = "INSERT INTO floating_employees(`deployment_id`, `employee_id`, `project_title`, `reason_for_floating`, `date_floated`, `floated_by`, `date_created`) 
+    VALUES(?, ?, ?, ?, ?, ?, ?)";
+    $result = $link->prepare($query);
+    $result->bind_param("iisssss", $deployment_id, $employee_id, $project_title, $reason_for_floating, $effectivity_date, $floated_by, $date_now);
+    if($result->execute()){
+        $sql = "UPDATE deployment SET clearance = ? WHERE id = ?";
+        $stmt = $link->prepare($sql);
+        $stmt->bind_param("si", $clearance, $deployment_id);
+        if($stmt->execute()){
+            $history = "INSERT INTO floating_employees_history(`deployment_id`, `employee_id`, `project_title`, `reason_for_floating`, `date_floated`, `floated_by`, `date_created`) 
+                        VALUES(?, ?, ?, ?, ?, ?, ?)";
+            $history_result = $link->prepare($history);
+            $history_result->bind_param("iisssss", $deployment_id, $employee_id, $project_title, $reason_for_floating, $effectivity_date, $floated_by, $date_now);
+            if($history_result->execute()){
+                $_SESSION['successMessage'] = "Success";
+            }
+            else{
+                $_SESSION['errorMessage'] = "Error";
+            }
+        }
+        else{
+            $_SESSION['errorMessage'] = "Error";
+        }
+    }
+    else{
+        $_SESSION['errorMessage'] = "Error";
+    }
+header("Location: float.php");
+exit(0);
+}
+
+// LOA - Renewal Requests (Float)
+if (isset($_POST['LOA_floatButton'])) {
+    $employee_id = $_POST['employee_id'];
+    $deployment_id = $_POST['deployment_id'];
+    $start_date = $_POST['start_date'];
+    $end_date = $_POST['end_date'];
+    $channel = $_POST['channel'];
+    $employment_status = $_POST['employment_status'];
+    $job_title = $_POST['job_title'];
+    $basic_salary = $_POST['basic_salary'];
+    $ecola = $_POST['ecola'];
+    $communication_allowance = $_POST['communication_allowance'];
+    $transportation_allowance = $_POST['transportation_allowance'];
+    $internet_allowance = $_POST['internet_allowance'];
+    $meal_allowance = $_POST['meal_allowance'];
+    $outbase_meal = $_POST['outbase_meal'];
+    $special_allowance = $_POST['special_allowance'];
+    $position_allowance = $_POST['position_allowance'];
+    $no_of_days = $_POST['no_of_days'];
+    $outlet = $_POST['outlet'];
+    $request_type = "FOR LOA";
+    $requested_by_id = $_SESSION['user_id'];
+    $requested_by = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+
+    $query = "INSERT INTO loa_renewal_request (`employee_id`, `deployment_id`, `start_date`, `end_date`, `channel`, 
+                `employment_status`, `job_title`, `basic_salary`, `ecola`, `communication_allowance`, 
+                `transportation_allowance`, `internet_allowance`, `meal_allowance`, `outbase_meal`, `special_allowance`, 
+                `position_allowance`, `no_days_of_work`, `outlet`, `requested_by_id`, `requested_by`, request_type) 
+              VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $result = $link->prepare($query);
+    $result->bind_param("iisssssssssssssssssss", $employee_id, $deployment_id, $start_date, $end_date, $channel,
+        $employment_status, $job_title, $basic_salary, $ecola, $communication_allowance,
+        $transportation_allowance, $internet_allowance, $meal_allowance, $outbase_meal, $special_allowance,
+        $position_allowance, $no_of_days, $outlet, $requested_by_id, $requested_by, $request_type);
+    if ($result->execute()) {
+        $query_history = "INSERT INTO loa_renewal_request_history (`employee_id`, `deployment_id`, `start_date`, `end_date`, `channel`, 
+                            `employment_status`, `job_title`, `basic_salary`, `ecola`, `communication_allowance`, 
+                            `transportation_allowance`, `internet_allowance`, `meal_allowance`, `outbase_meal`, `special_allowance`, 
+                            `position_allowance`, `no_days_of_work`, `outlet`, `requested_by_id`, `requested_by`) 
+                          VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        $result_history = $link->prepare($query_history);
+        $result_history->bind_param("iissssssssssssssssss", $employee_id, $deployment_id, $start_date, $end_date, $channel,
+            $employment_status, $job_title, $basic_salary, $ecola, $communication_allowance,
+            $transportation_allowance, $internet_allowance, $meal_allowance, $outbase_meal, $special_allowance,
+            $position_allowance, $no_of_days, $outlet, $requested_by_id, $requested_by);
+
+        if ($result_history) {
+            $transaction = "ADD LOA RENEWAL REQUEST" . $employee_id . " (" . $requested_by . ")";
+            $transaction_log = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                        VALUES (?, ?, ?, ?, ?)";
+            $transaction_log_result = $link->prepare($transaction_log);
+            $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+            $transaction_log_result->execute();
+
+            $_SESSION['successMessage'] = "Success";
+        } else {
+            $_SESSION['errorMessage'] = "Error";
+        }
+    }
+    header("Location: float.php");
+    exit(0);
+}
+
+// NOA - Renewal Requests (Float)
+if (isset($_POST['NOA_floatButton'])) {
+    $employee_id = $_POST['employee_id'];
+    $deployment_id = $_POST['deployment_id'];
+    $start_date = $_POST['start_date'];
+    $end_date = $_POST['end_date'];
+    $channel = $_POST['channel'];
+    $employment_status = $_POST['employment_status'];
+    $job_title = $_POST['job_title'];
+    $basic_salary = $_POST['basic_salary'];
+    $ecola = $_POST['ecola'];
+    $communication_allowance = $_POST['communication_allowance'];
+    $transportation_allowance = $_POST['transportation_allowance'];
+    $internet_allowance = $_POST['internet_allowance'];
+    $meal_allowance = $_POST['meal_allowance'];
+    $outbase_meal = $_POST['outbase_meal'];
+    $special_allowance = $_POST['special_allowance'];
+    $position_allowance = $_POST['position_allowance'];
+    $no_of_days = $_POST['no_of_days'];
+    $outlet = $_POST['outlet'];
+    $request_type = "FOR NOA - LATERAL TRANSFER";
+    $requested_by_id = $_SESSION['user_id'];
+    $requested_by = $_SESSION['firstname'] . " " . $_SESSION['lastname'];
+
+    $query = "INSERT INTO loa_renewal_request (`employee_id`, `deployment_id`, `start_date`, `end_date`, `channel`, 
+                `employment_status`, `job_title`, `basic_salary`, `ecola`, `communication_allowance`, 
+                `transportation_allowance`, `internet_allowance`, `meal_allowance`, `outbase_meal`, `special_allowance`, 
+                `position_allowance`, `no_days_of_work`, `outlet`, `requested_by_id`, `requested_by`, request_type) 
+              VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $result = $link->prepare($query);
+    $result->bind_param("iisssssssssssssssssss", $employee_id, $deployment_id, $start_date, $end_date, $channel,
+        $employment_status, $job_title, $basic_salary, $ecola, $communication_allowance,
+        $transportation_allowance, $internet_allowance, $meal_allowance, $outbase_meal, $special_allowance,
+        $position_allowance, $no_of_days, $outlet, $requested_by_id, $requested_by, $request_type);
+    if ($result->execute()) {
+        $query_history = "INSERT INTO loa_renewal_request_history (`employee_id`, `deployment_id`, `start_date`, `end_date`, `channel`, 
+                            `employment_status`, `job_title`, `basic_salary`, `ecola`, `communication_allowance`, 
+                            `transportation_allowance`, `internet_allowance`, `meal_allowance`, `outbase_meal`, `special_allowance`, 
+                            `position_allowance`, `no_days_of_work`, `outlet`, `requested_by_id`, `requested_by`) 
+                          VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        $result_history = $link->prepare($query_history);
+        $result_history->bind_param("iissssssssssssssssss", $employee_id, $deployment_id, $start_date, $end_date, $channel,
+            $employment_status, $job_title, $basic_salary, $ecola, $communication_allowance,
+            $transportation_allowance, $internet_allowance, $meal_allowance, $outbase_meal, $special_allowance,
+            $position_allowance, $no_of_days, $outlet, $requested_by_id, $requested_by);
+
+        if ($result_history) {
+            $transaction = "ADD LOA RENEWAL REQUEST" . $employee_id . " (" . $requested_by . ")";
+            $transaction_log = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                        VALUES (?, ?, ?, ?, ?)";
+            $transaction_log_result = $link->prepare($transaction_log);
+            $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+            $transaction_log_result->execute();
+
+            $_SESSION['successMessage'] = "Success";
+        } else {
+            $_SESSION['errorMessage'] = "Error";
+        }
+    }
+    header("Location: float.php");
     exit(0);
 }

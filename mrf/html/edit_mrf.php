@@ -169,7 +169,7 @@ $datenow = date("m/d/Y h:i:s A");
                                             <div class="row cs1">
                                                 <div class="column col-md-4">
                                                     <div class="containerx">
-                                                         <label class="form-control">
+                                                        <label class="form-control">
                                                             <?php
                                                             if ($rows['position'] === strtoupper('Push Girl')) {
                                                             ?>

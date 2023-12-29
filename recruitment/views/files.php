@@ -100,7 +100,8 @@ include '../../connect.php';
                                                 WHERE folder_id = '$folder_id' 
                                                 AND applicant_id = '$applicant_id'
                                                 AND (file_description = 'SIGNED LOA'
-                                                OR file_description = 'LOA')";
+                                                OR file_description = 'LOA'
+                                                OR file_description = 'LOA - PDF')";
                                                 $select_resume_file_result = $link->query($select_resume_file);
                                                 while ($select_resume_file_row = $select_resume_file_result->fetch_assoc()) {
                                                 $select_folder = "SELECT * FROM folder WHERE id = '$folder_id' AND applicant_id = '$applicant_id'";

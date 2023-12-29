@@ -684,6 +684,13 @@ if (isset($_POST['uploadFile_btn'])) {
                     $update_deployment_history_result = $link->prepare($update_deployment_history);
                     $update_deployment_history_result->bind_param("ssii", $fileNamesStr, $signed_loa_status, $deployment_id, $employee_id);
                     if ($update_deployment_history_result->execute()) {
+                        $transaction = "UPLOAD SIGNED LOA FOR " . $deployment_id;
+                        $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                        VALUES (?, ?, ?, ?, ?)";
+                        $transaction_log_result = $link->prepare($transaction_log);
+                        $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+                        $transaction_log_result->execute();
+            
                         $_SESSION['successMessage'] = "Success";
                     } else {
                         $_SESSION['errorMessage'] = "Error" . $link->error;
@@ -753,7 +760,7 @@ if (isset($_POST['add_renewal_request_loa_btn'])) {
                     $result_history = $link->query($query_history);
 
                     if ($result_history) {
-                        $transaction = "ADD LOA RENEWAL REQUEST";
+                        $transaction = "ADD LOA RENEWAL REQUEST - MULTIPLE";
                         $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
                     VALUES (?, ?, ?, ?, ?)";
                         $transaction_log_result = $link->prepare($transaction_log);
@@ -835,6 +842,13 @@ if (isset($_POST['add_renewal_request_individual_btn'])) {
         '$special_allowance', '$position_allowance', '$no_of_days', '$outlet', '$requested_by_id', '$requested_by')";
             $result_history = $link->query($query_history);
             if ($result_history) {
+                $transaction = "ADD LOA RENEWAL REQUEST - INDIVIDUAL" . $employee_id;
+                        $transaction_log  = "INSERT INTO transaction_log (user_id, transaction, personnel, user_type, division) 
+                        VALUES (?, ?, ?, ?, ?)";
+                        $transaction_log_result = $link->prepare($transaction_log);
+                        $transaction_log_result->bind_param("issss", $user_id, $transaction, $personnel, $user_type, $user_division);
+                        $transaction_log_result->execute();
+                        
                 $_SESSION['successMessage'] = "Success";
             } else {
                 $_SESSION['errorMessage'] = "Error" . $link->error;

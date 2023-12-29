@@ -106,7 +106,7 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                 <th class="text-center">Date End</th>
                                                 <th class="text-center">Request Status</th>
                                                 <th class="text-center">LOA Status</th>
-                                                <th class="text-center">LOA Files</th>
+                                                <th class="text-center">Signed LOA</th>
                                                 <th class="text-center">Requested By</th>
                                                 <th class="text-center">Action</th>
                                             </tr>
@@ -164,6 +164,25 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                         <?php } else {
                                                             echo "";
                                                         }
+                                                        
+                                                        $pdf = "SELECT * 
+                                                            FROM 201files 
+                                                            WHERE employee_id = '$employee_id' 
+                                                            AND file_description = 'LOA - PDF' 
+                                                            ORDER BY id DESC LIMIT 1";
+                                                            
+                                                        $pdf_result = $link->query($pdf);
+                                                        
+                                                        while ($pdf_row = $pdf_result->fetch_assoc()) {
+                                                            // Set the Content-Disposition header
+                                                            header('Content-Type: application/pdf');
+                                                            header('Content-Disposition: attachment; filename="' . $pdf_row['requirements_files'] . '"');
+
+                                                            // Output the download link
+                                                            echo '<a href="https://jobs.hrdpcnpromopro.com/' . $select_folder_row['folder_path'] . '/' . $pdf_row['requirements_files'] . '" class="btn btn-dark btn-sm" data-bs-toggle="tooltip" data-bs-title="Download LOA (PDF)" download>
+                                                                    <i class="bi bi-cloud-download"></i>
+                                                                  </a><br>';
+                                                        }
                                                         ?>
                                                     </td>
 
@@ -172,7 +191,6 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                         <div class="modal-dialog">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
-                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
                                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                                 </div>
                                                                 <div class="modal-body">

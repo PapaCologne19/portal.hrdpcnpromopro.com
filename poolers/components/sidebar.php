@@ -26,6 +26,12 @@
       <span class="menu-header-text">POOLERS</span>
     </li>
     <li class="menu-item">
+      <a href="job_vacancies.php" class="menu-link">
+        <i class="menu-icon tf-icons bx bx-home-circle"></i>
+        <div data-i18n="Analytics">Vacancies</div>
+      </a>
+    </li>
+    <li class="menu-item">
       <a href="submit_resume.php" class="menu-link">
         <i class="menu-icon tf-icons bx bx-home-circle"></i>
         <div data-i18n="Analytics">Submit Resume</div>
