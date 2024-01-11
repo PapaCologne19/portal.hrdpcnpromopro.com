@@ -54,6 +54,7 @@
 
         <body>
             <?php
+            echo $_SESSION['user_id'];
             if (isset($_SESSION['successMessage'])) { ?>
                 <script>
                     Swal.fire({
@@ -109,7 +110,7 @@
                                             </thead>
                                             <tbody>
                                                 <?php
-                                                $query = "SELECT * FROM mrf WHERE uid = '" . $_SESSION['id'] . "' AND is_deleted = '0'";
+                                                $query = "SELECT * FROM mrf WHERE uid = '" . $_SESSION['user_id'] . "' AND is_deleted = '0'";
                                                 $result = $link->query($query);
                                                 while ($row = $result->fetch_assoc()) {
                                                     $inputDate = $row['dt_now'];

@@ -176,6 +176,12 @@
         <div data-i18n="Analytics">Employee</div>
       </a>
     </li>
+    <li class="menu-item">
+      <a href="for_training.php" class="menu-link">
+          <i class="bi bi-person-badge-fill" style="margin-right: 1rem;"></i>
+        <div data-i18n="Analytics">For Training</div>
+      </a>
+    </li>
     <!-- Print an entry -->
     <li class="menu-item">
       <a href="print_entry.php" class="menu-link">
@@ -196,33 +202,6 @@
         <div data-i18n="Analytics">Float</div>
       </a>
     </li>
-    
-    <!--<li class="menu-header small text-uppercase">-->
-    <!--  <span class="menu-header-text">SHORTLISTING MENU</span>-->
-    <!--</li>-->
-    <!-- Create Shortlist Title -->
-    <!-- <li class="menu-item">
-      <a href="create_shortlist.php" class="menu-link">
-        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-        <div data-i18n="Analytics">Create Shortlist Title</div>
-      </a>
-    </li> -->
-    <!-- Add Applicant to Shortlist -->
-    <!-- <li class="menu-item">
-      <a href="add_shortlist.php" class="menu-link">
-        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-        <div data-i18n="Analytics">Add to Shortlist</div>
-      </a>
-    </li> -->
-    <!-- Remove Applicant to Shortlist -->
-    <!-- <li class="menu-item">
-      <a href="remove_shortlist.php" class="menu-link">
-        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-        <div data-i18n="Analytics">Remove to Shortlist</div>
-      </a>
-    </li> -->
-
-
 
 
     <li class="menu-header small text-uppercase">

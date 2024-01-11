@@ -183,7 +183,7 @@
       </a>
     </li>
     <li class="menu-item">
-      <a href="tables-basic.html" class="menu-link">
+      <a href="float.php" class="menu-link">
         <i class="bi bi-person-up" style="margin-right: 1rem !important"></i>
         <div data-i18n="Tables">Float</div>
       </a>

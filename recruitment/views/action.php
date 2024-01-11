@@ -2277,3 +2277,52 @@ if (isset($_POST['NOA_floatButton'])) {
     header("Location: float.php");
     exit(0);
 }
+
+// For submission of Orientation
+if(isset($_POST['submit_orientation_btn'])){
+    // In your PHP script
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+    $employee_id = $_POST['employee_id'];
+    $orientation_date = $_POST['orientation_date'];
+    $orientation_status = "DONE";
+    $employee_name = $_POST['employee_name'];
+    $training_type = $_POST['training_type'];
+    $business_division = $_POST['business_division'];
+    $project_title = $_POST['project_title'];
+    $job_title = $_POST['job_title'];
+    
+    $query = "UPDATE employees SET orientation_type = ?, orientation_status = ?, orientation_date = ? WHERE id = ?";
+    $stmt = $link->prepare($query);
+    $stmt->bind_param("sssi", $training_type, $orientation_status, $orientation_date, $employee_id);
+    if($stmt->execute()){
+        $insert = "INSERT INTO training (`employee_name`, `division`, `project_title`, `date_oriented`, `position`, `training_type`) 
+        VALUES (?, ?, ?, ?, ?, ?)";
+        $result = $link->prepare($insert);
+        $result->bind_param("sssssi", $employee_name, $business_division, $project_title, $orientation_date, $job_title, $training_type);
+        if($result->execute()){
+            $check = "SELECT * FROM job_title WHERE description = ?";
+            $check_result = $link->prepare($check);
+            if($check_result->num_rows === 0){
+                $insert_new_job = "INSERT INTO job_title(description) VALUES (?)";
+                $insert_new_job_result = $link->prepare($insert_new_job);
+                $insert_new_job_result->bind_param("s", $job_title);
+                
+                if($insert_new_job_result->execute()){
+                    $_SESSION['successMessage'] = "Success";
+                } else{
+                    $_SESSION['errorMessage'] = "Error";
+                }
+            } else{
+                $_SESSION['successMessage'] = "Success";
+            }
+        } else{
+            $_SESSION['errorMessage'] = "Error";
+        }
+    } else{
+        $_SESSION['errorMessage'] = "Error";
+    }
+    header("Location: for_training.php");
+    exit(0);
+}

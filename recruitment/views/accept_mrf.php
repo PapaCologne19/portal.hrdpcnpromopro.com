@@ -163,7 +163,7 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                             <form action="" method="POST">
                                                             <input type="hidden" name="ids" class="ids" id="ids" value="<?php echo $row['id']; ?>">
                                                                 <button type="button" class="btn btn-sm btn-primary btnview" title="View MRF" data-bs-toggle="modal" data-bs-target="#viewmrf"><i class="bi bi-eye icon"></i></button>
-                                                                <a href="shortlisted_applicants.php?id=<?php echo $row['id']?>" class="btn btn-secondary btn-sm btntooltips" title="View"><i class="bi bi-search"></i></a>
+                                                                <!--<a href="shortlisted_applicants.php?id=<?php echo $row['id']?>" class="btn btn-secondary btn-sm btntooltips" title="View"><i class="bi bi-search"></i></a>-->
 
                                                                 <input type="hidden" name="mrf_ids" class="mrf_ids" value="<?php echo $row['id'] ?>">
                                                                 <button type="button" name="r_mrfs" class="btn btn-sm btn-success r_mrfs" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Accept MRF"><i class="bi bi-send-check"></i></button>

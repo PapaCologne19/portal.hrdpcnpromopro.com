@@ -165,6 +165,7 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                                                 <option value="EWB">EWB</option>
                                                                                 <option value="DEPLOYMENT">DEPLOYMENT</option>
                                                                                 <option value="POOLERS">POOLERS</option>
+                                                                                <option value="HEAD">HEAD</option>
                                                                             </select>
                                                                         </div>
                                                                 </div>
@@ -244,6 +245,7 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                                     <option value="EWB">EWB</option>
                                                                     <option value="DEPLOYMENT">DEPLOYMENT</option>
                                                                     <option value="POOLERS">POOLERS</option>
+                                                                    <option value="HEAD">HEAD</option>
                                                                 </select>
                                                             </div>
                                                             <div class="col-md-12 mt-3">

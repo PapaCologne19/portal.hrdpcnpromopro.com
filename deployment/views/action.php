@@ -1513,3 +1513,23 @@ if (isset($_POST['approve_signed_loa_btn_click'])) {
   exit(0);
 }
 
+// For Quit Claim
+if(isset($_POST['quit_claim_btn'])){
+    $separation_id = $_POST['separation_id'];
+    $date_now = $_POST['date_now'];
+    $amount = $_POST['amount'];
+    $amountInWords = $_POST['amountInWords'];
+    
+    $query = "UPDATE separation SET date_created = ?, amount = ?, amount_text = ? WHERE id = ?";
+    $result = $link->prepare($query);
+    $result->bind_param("sssi", $date_now, $amount, $amountInWords, $separation_id);
+    if($result->execute()){
+        $_SESSION['successMessage'] = "Success";
+    }
+    else{
+        $_SESSION['errorMessage'] = "Error";
+    }
+    header("Location: separation.php");
+    exit(0);
+}
+

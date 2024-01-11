@@ -1282,3 +1282,36 @@ Stack trace:
 [27-Dec-2023 16:24:28 Asia/Hong_Kong] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/components/sidebar.php:1) in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/deployed_employee.php on line 178
 [27-Dec-2023 16:24:28 Asia/Hong_Kong] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/components/sidebar.php:1) in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/deployed_employee.php on line 179
 [27-Dec-2023 16:25:58 Asia/Hong_Kong] PHP Notice:  Undefined index: project_title in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/request_loa.php on line 188
+[03-Jan-2024 09:13:19 Asia/Manila] PHP Notice:  Undefined index: work_experience in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/action.php on line 41
+[03-Jan-2024 09:13:19 Asia/Manila] PHP Notice:  Undefined index: articulate in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/action.php on line 44
+[09-Jan-2024 13:48:20 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:23 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:30 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:32 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:33 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:33 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:35 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:36 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:37 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:48:38 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:52:41 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:52:45 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:52:46 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:52:48 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:54:13 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:56:09 Asia/Manila] PHP Notice:  Undefined index: position in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/action.php on line 28
+[09-Jan-2024 13:56:09 Asia/Manila] PHP Notice:  Undefined index: good_moral in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/action.php on line 40
+[09-Jan-2024 13:56:09 Asia/Manila] PHP Notice:  Undefined index: good_communication in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/action.php on line 42
+[09-Jan-2024 13:56:09 Asia/Manila] PHP Notice:  Undefined index: physically_fit in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/action.php on line 43
+[09-Jan-2024 13:56:09 Asia/Manila] PHP Notice:  Undefined index: articulate in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/action.php on line 44
+[09-Jan-2024 13:56:09 Asia/Manila] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/action.php on line 65
+[09-Jan-2024 13:56:10 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 13:56:19 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 14:00:08 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 14:00:09 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 14:00:10 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 14:00:28 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 14:01:50 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 112
+[09-Jan-2024 14:02:31 Asia/Hong_Kong] PHP Notice:  Undefined index: id in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/mrf_list.php on line 113
+[09-Jan-2024 15:04:07 Asia/Hong_Kong] PHP Notice:  Undefined index: project_title in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/request_loa.php on line 188
+[09-Jan-2024 15:04:12 Asia/Hong_Kong] PHP Notice:  Undefined index: project_title in /home/pcnpromopro/portal.hrdpcnpromopro.com/mrf/html/request_loa.php on line 188
