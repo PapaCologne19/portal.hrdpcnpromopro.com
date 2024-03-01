@@ -254,7 +254,7 @@ include '../../connect.php';
 
         .konvajs-content
         {
-            style="position: relative; 
+            position: relative; 
             user-select: none; 
             width: 0px !important; 
             height: 140px !important;
@@ -323,22 +323,16 @@ include '../../connect.php';
                                             $fetch_result = $link->query($fetch_employee);
                                             while ($fetch_row = $fetch_result->fetch_assoc()) {
                                                 if (empty($fetch_row['mnko']) || $fetch_row['mnko'] === "NA" || $fetch_row['mnko'] === "N/A") {
-                                                    $name = chop($fetch_row['firstnameko'] . " " . $fetch_row['lastnameko']. " " .$fetch_row['extnname']);
-                                                }
-                                                else if (empty($fetch_row['extnname']) || $fetch_row['extnname'] === "NA" || $fetch_row['extnname'] === "N/A") 
-                                                {
-                                                    $name = chop($fetch_row['firstnameko'] . " " . $fetch_row['mnko'] . " " . $fetch_row['lastnameko']) ;
-                                                } 
-                                                else if (empty($fetch_row['mnko']) || $fetch_row['mnko'] === "NA" || $fetch_row['mnko'] === "N/A" AND empty($fetch_row['extnname']) || $fetch_row['extnname'] === "NA" || $fetch_row['extnname'] === "N/A") 
-                                                {
-                                                    $name = chop($fetch_row['firstnameko'] . " " . $fetch_row['lastnameko']) ;
-                                                }
-                                                else 
-                                                {
-                                                    $name = chop($fetch_row['firstnameko'] . " " . $fetch_row['mnko'] . " " . $fetch_row['lastnameko'] . " " .$fetch_row['extnname']) ;
+                                                    $name = chop($fetch_row['firstnameko'] . " " . $fetch_row['lastnameko'] . " " . $fetch_row['extnname']);
+                                                } else if (empty($fetch_row['extnname']) || $fetch_row['extnname'] === "NA" || $fetch_row['extnname'] === "N/A") {
+                                                    $name = chop($fetch_row['firstnameko'] . " " . $fetch_row['mnko'] . " " . $fetch_row['lastnameko']);
+                                                } else if (empty($fetch_row['mnko']) || $fetch_row['mnko'] === "NA" || $fetch_row['mnko'] === "N/A" and empty($fetch_row['extnname']) || $fetch_row['extnname'] === "NA" || $fetch_row['extnname'] === "N/A") {
+                                                    $name = chop($fetch_row['firstnameko'] . " " . $fetch_row['lastnameko']);
+                                                } else {
+                                                    $name = chop($fetch_row['firstnameko'] . " " . $fetch_row['mnko'] . " " . $fetch_row['lastnameko'] . " " . $fetch_row['extnname']);
                                                 }
 
-                                                $sign=$fetch_row['signature'];
+                                                $sign = $fetch_row['signature'];
                                                 $position = $row['job_title'];
                                                 $id_no = $row['emp_id'];
                                                 $type = $row['type'];
@@ -359,128 +353,128 @@ include '../../connect.php';
 
                                                 if ($row['employment_status'] === "REGULAR" || $row['employment_status'] === "Regular" || $row['employment_status'] === "regular") {
 
-                                ?>          <div class="container1">
-                                                <div class="row">
-                                                    <div class="col-sm-12">
-                                                    <img src="../assets/img/elements/IDRegular2.png" alt="ID" class="img-responsive">
-                                                    </div>
-                                                </div>
-                                                    <div class="row">
-                                                        <div class="col-sm-6">
-                                                    <div class="card name">
-                                                        <h2><?php echo $name ?></h2>
-                                                    </div>
-                                                    <div class="card" id="photoregular">
-                                                        <img src="<?php echo $fetch_row['photopath'] ?>" id="photoko" alt="">
-                                                    </div>
-                                                    <div class="card position">
-                                                        <h2><?php echo $position ?></h2>
-                                                    </div>
-                                                    <div id='logo'></div>
-                                                    <div class="card id_no_regular">
-                                                        <h2><?php echo $id_no ?></h2>
-                                                    </div>
-                                                 </div>
-                                                <div class="col-sm-6">   
-                                                    <div class="card contact_person">
-                                                        <h2><?php echo $contact_person ?></h2>
-                                                    </div>
-                                                    <div class="card contact_address">
-                                                        <h2>&emsp;&emsp;&emsp;<?php echo $address ?></h2>
-                                                    </div>
-                                                    <div class="card contact_number">
-                                                        <h2><?php echo $contact_number ?></h2>
-                                                    </div>
-                                                    <div class="card sss">
-                                                        <h2><?php echo $sss ?></h2>
-                                                    </div>
-                                                    <div class="card tin">
-                                                        <h2><?php echo $tin ?></h2>
-                                                    </div>
-                                                    <div class="card philhealth">
-                                                        <h2><?php echo $philhealth ?></h2>
-                                                    </div>
-                                                    <div class="card hdmf">
-                                                        <h2><?php echo $pagibig ?></h2>
-                                                    </div>
-                                                    <div class="card birthday">
-                                                        <h2><?php echo $formattedDate_birthday ?></h2>
-                                                    </div>
+                                                    ?>          <div class="container1">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                        <img src="../assets/img/elements/IDRegular2.png" alt="ID" class="img-responsive">
+                                                                        </div>
+                                                                    </div>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-6">
+                                                                        <div class="card name">
+                                                                            <h2><?php echo $name ?></h2>
+                                                                        </div>
+                                                                        <div class="card" id="photoregular">
+                                                                            <img src="<?php echo $fetch_row['photopath'] ?>" id="photoko" alt="">
+                                                                        </div>
+                                                                        <div class="card position">
+                                                                            <h2><?php echo $position ?></h2>
+                                                                        </div>
+                                                                        <div id='logo'></div>
+                                                                        <div class="card id_no_regular">
+                                                                            <h2><?php echo $id_no ?></h2>
+                                                                        </div>
+                                                                     </div>
+                                                                    <div class="col-sm-6">   
+                                                                        <div class="card contact_person">
+                                                                            <h2><?php echo $contact_person ?></h2>
+                                                                        </div>
+                                                                        <div class="card contact_address">
+                                                                            <h2>&emsp;&emsp;&emsp;<?php echo $address ?></h2>
+                                                                        </div>
+                                                                        <div class="card contact_number">
+                                                                            <h2><?php echo $contact_number ?></h2>
+                                                                        </div>
+                                                                        <div class="card sss">
+                                                                            <h2><?php echo $sss ?></h2>
+                                                                        </div>
+                                                                        <div class="card tin">
+                                                                            <h2><?php echo $tin ?></h2>
+                                                                        </div>
+                                                                        <div class="card philhealth">
+                                                                            <h2><?php echo $philhealth ?></h2>
+                                                                        </div>
+                                                                        <div class="card hdmf">
+                                                                            <h2><?php echo $pagibig ?></h2>
+                                                                        </div>
+                                                                        <div class="card birthday">
+                                                                            <h2><?php echo $formattedDate_birthday ?></h2>
+                                                                        </div>
 
-                                                </div>
-                                             </div>
-                                        </div>
-                                                    <div class="caption">
-                                                    <input type="hidden" id="caption-input" value="<?php echo $id_no . '-' . $name . '-' .$type ?>-PCN ID">
-                                                    </div>
-                                                    <br><br><br><br><br><br>
-                                                <?php
+                                                                    </div>
+                                                                 </div>
+                                                            </div>
+                                                                        <div class="caption">
+                                                                        <input type="hidden" id="caption-input" value="<?php echo $id_no . '-' . $name . '-' . $type ?>-PCN ID">
+                                                                        </div>
+                                                                        <br><br><br><br><br><br>
+                                                                    <?php
 
                                                 } else { ?>
                                                     
-                                                    <div class="container1">
-                                                    <div class="row">
-                                                        <div class="col-sm-12">
-                                                            <img src="../assets/img/elements/PCNBG2.png" alt="ID" class="img-responsive">
-                                                        </div>
-                                                    </div>
+                                                                        <div class="container1">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-12">
+                                                                                <img src="../assets/img/elements/PCNBG2.png" alt="ID" class="img-responsive">
+                                                                            </div>
+                                                                        </div>
 
-                                                    <div class="row">
-                                                        <div class="col-sm-6">
-                                                            <!-- Left Column -->
-                                                            <div class="card" id="photo">
-                                                                <img src="<?php echo $fetch_row['photopath'] ?>" id="photoko" alt="">
-                                                            </div>
-                                                            <div class="card name">
-                                                                <h2><?php echo $name ?></h2>
-                                                            </div>
-                                                            <div class="card position">
-                                                                <h2><?php echo $position ?></h2>
-                                                            </div>
-                                                            <div id='logo'></div>
-                                                            <div class="card id_no">
-                                                                <h2><?php echo $id_no ?></h2>
-                                                            </div>
-                                                            <div class="card date_end">
-                                                                <h2><?php echo $formattedDate_end ?></h2>
-                                                            </div>
-                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-6">
+                                                                                <!-- Left Column -->
+                                                                                <div class="card" id="photo">
+                                                                                    <img src="<?php echo $fetch_row['photopath'] ?>" id="photoko" alt="">
+                                                                                </div>
+                                                                                <div class="card name">
+                                                                                    <h2><?php echo $name ?></h2>
+                                                                                </div>
+                                                                                <div class="card position">
+                                                                                    <h2><?php echo $position ?></h2>
+                                                                                </div>
+                                                                                <div id='logo'></div>
+                                                                                <div class="card id_no">
+                                                                                    <h2><?php echo $id_no ?></h2>
+                                                                                </div>
+                                                                                <div class="card date_end">
+                                                                                    <h2><?php echo $formattedDate_end ?></h2>
+                                                                                </div>
+                                                                            </div>
 
-                                                        <div class="col-sm-6">
-                                                            <!-- Right Column -->
-                                                            <div class="card contact_person">
-                                                                <h2><?php echo $contact_person ?></h2>
-                                                            </div>
-                                                            <div class="card contact_address">
-                                                                <h2>&emsp;&emsp;&emsp;<?php echo $address ?></h2>
-                                                            </div>
-                                                            <div class="card contact_number">
-                                                                <h2><?php echo $contact_number ?></h2>
-                                                            </div>
-                                                            <div class="card sss">
-                                                                <h2><?php echo $sss ?></h2>
-                                                            </div>
-                                                            <div class="card tin">
-                                                                <h2><?php echo $tin ?></h2>
-                                                            </div>
-                                                            <div class="card philhealth">
-                                                                <h2><?php echo $philhealth ?></h2>
-                                                            </div>
-                                                            <div class="card hdmf">
-                                                                <h2><?php echo $pagibig ?></h2>
-                                                            </div>
-                                                            <div class="card birthday">
-                                                                <h2><?php echo $formattedDate_birthday ?></h2>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                                            <div class="col-sm-6">
+                                                                                <!-- Right Column -->
+                                                                                <div class="card contact_person">
+                                                                                    <h2><?php echo $contact_person ?></h2>
+                                                                                </div>
+                                                                                <div class="card contact_address">
+                                                                                    <h2>&emsp;&emsp;&emsp;<?php echo $address ?></h2>
+                                                                                </div>
+                                                                                <div class="card contact_number">
+                                                                                    <h2><?php echo $contact_number ?></h2>
+                                                                                </div>
+                                                                                <div class="card sss">
+                                                                                    <h2><?php echo $sss ?></h2>
+                                                                                </div>
+                                                                                <div class="card tin">
+                                                                                    <h2><?php echo $tin ?></h2>
+                                                                                </div>
+                                                                                <div class="card philhealth">
+                                                                                    <h2><?php echo $philhealth ?></h2>
+                                                                                </div>
+                                                                                <div class="card hdmf">
+                                                                                    <h2><?php echo $pagibig ?></h2>
+                                                                                </div>
+                                                                                <div class="card birthday">
+                                                                                    <h2><?php echo $formattedDate_birthday ?></h2>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
        
-                                                <div class="caption">
-                                                    <input type="hidden" id="caption-input" value="<?php echo $id_no . '-' . $name . '-' .$type ?>-PCN ID">
-                                                    </div>
-                                                    <br><br><br><br><br><br>
-                                <?php }
+                                                                    <div class="caption">
+                                                                        <input type="hidden" id="caption-input" value="<?php echo $id_no . '-' . $name . '-' . $type ?>-PCN ID">
+                                                                        </div>
+                                                                        <br><br><br><br><br><br>
+                                                <?php }
                                             }
                                         }
                                     } else {

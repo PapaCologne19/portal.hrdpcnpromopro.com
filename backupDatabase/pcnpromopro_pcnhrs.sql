@@ -36,7 +36,7 @@ CREATE TABLE `201files` (
   `requirements_files` varchar(600) NOT NULL,
   `requirements_files_uploaded` varchar(255) NOT NULL,
   `file_description` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `201files`
@@ -355,7 +355,7 @@ CREATE TABLE `applicant_resume` (
   `date_applied` datetime NOT NULL,
   `date_rejected` datetime NOT NULL,
   `is_deleted` int(11) NOT NULL DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `applicant_resume`
@@ -418,7 +418,7 @@ CREATE TABLE `attrition` (
   `effectivity_date` varchar(255) NOT NULL,
   `by` varchar(255) NOT NULL,
   `action` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- --------------------------------------------------------
 
@@ -486,7 +486,7 @@ CREATE TABLE `blacklist_history` (
   `dateofaction` varchar(255) NOT NULL,
   `ewbdeploy` varchar(255) NOT NULL,
   `ewbdate` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `blacklist_history`
@@ -509,7 +509,7 @@ CREATE TABLE `categories` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `is_deleted` tinyint(4) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `categories`
@@ -534,7 +534,7 @@ CREATE TABLE `channels` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `is_deleted` tinyint(1) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `channels`
@@ -566,7 +566,7 @@ CREATE TABLE `city` (
   `regDesc` varchar(255) DEFAULT NULL,
   `provCode` varchar(255) DEFAULT NULL,
   `citymunCode` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `city`
@@ -1097,7 +1097,7 @@ INSERT INTO `city` (`id`, `psgcCode`, `citymunDesc`, `regDesc`, `provCode`, `cit
 (525, '175303000', 'ARACELI', '17a', '1753', '175303'),
 (526, '175304000', 'BALABAC', '17a', '1753', '175304'),
 (527, '175305000', 'BATARAZA', '17a', '1753', '175305'),
-(528, '175306000', 'BROOKE\'S POINT', '17a', '1753', '175306'),
+(528, '175306000', 'BROOKES POINT', '17a', '1753', '175306'),
 (529, '175307000', 'BUSUANGA', '17a', '1753', '175307'),
 (530, '175308000', 'CAGAYANCILLO', '17a', '1753', '175308'),
 (531, '175309000', 'CORON', '17a', '1753', '175309'),
@@ -2226,7 +2226,7 @@ CREATE TABLE `classifications` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `is_deleted` tinyint(1) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `classifications`
@@ -2256,7 +2256,7 @@ CREATE TABLE `client_company` (
   `branch` varchar(255) DEFAULT NULL,
   `address` varchar(1000) DEFAULT NULL,
   `is_deleted` tinyint(4) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `client_company`
@@ -2299,7 +2299,7 @@ CREATE TABLE `client_project` (
   `status` varchar(255) NOT NULL DEFAULT '1' COMMENT '0=active, 1=inactive',
   `is_deleted` int(11) DEFAULT 0,
   `date_created` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `client_project`
@@ -2356,7 +2356,7 @@ CREATE TABLE `data` (
   `approve` int(11) NOT NULL DEFAULT 0,
   `idnum` varchar(255) NOT NULL,
   `is_deleted` int(11) NOT NULL DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `data`
@@ -2382,7 +2382,7 @@ CREATE TABLE `department` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `division` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `department`
@@ -2476,7 +2476,7 @@ CREATE TABLE `deployment` (
   `noa_remarks` varchar(3000) NOT NULL,
   `noa_type` varchar(255) NOT NULL,
   `is_deleted` int(11) NOT NULL DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `deployment`
@@ -2566,7 +2566,7 @@ CREATE TABLE `deployment_history` (
   `prepared_by_separation` varchar(255) NOT NULL,
   `effectivity_date` varchar(255) NOT NULL,
   `noa_remarks` varchar(3000) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `deployment_history`
@@ -2640,7 +2640,7 @@ CREATE TABLE `deploy_status` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `is_deleted` tinyint(4) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `deploy_status`
@@ -2660,7 +2660,7 @@ CREATE TABLE `distinguishing_qualification_marks` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `is_deleted` tinyint(4) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `distinguishing_qualification_marks`
@@ -2699,7 +2699,7 @@ CREATE TABLE `divisions` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `is_deleted` tinyint(1) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `divisions`
@@ -2726,7 +2726,7 @@ CREATE TABLE `empcounter` (
   `id` int(11) NOT NULL,
   `appno` varchar(255) NOT NULL,
   `counter` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `empcounter`
@@ -2807,7 +2807,7 @@ CREATE TABLE `employees` (
   `orientation_status` varchar(255) NOT NULL DEFAULT 'PENDING',
   `orientation_date` varchar(255) NOT NULL,
   `is_deleted` int(11) NOT NULL DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `employees`
@@ -2877,7 +2877,7 @@ CREATE TABLE `employee_update_history` (
   `updated_by` varchar(255) NOT NULL,
   `date_update` datetime NOT NULL DEFAULT current_timestamp(),
   `is_deleted` int(11) NOT NULL DEFAULT 0 COMMENT '0=active, 1=deleted'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `employee_update_history`
@@ -2898,7 +2898,7 @@ CREATE TABLE `employment_status` (
   `description` varchar(255) NOT NULL,
   `is_deleted` tinyint(1) NOT NULL DEFAULT 0,
   `is_status` tinyint(1) NOT NULL DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `employment_status`
@@ -2919,7 +2919,7 @@ CREATE TABLE `ewb_choices` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `is_deleted` tinyint(1) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `ewb_choices`
@@ -2972,7 +2972,7 @@ CREATE TABLE `ewb_declined_history` (
   `ewb_reason` varchar(3000) NOT NULL,
   `ewb_declined_by` varchar(255) NOT NULL,
   `ewb_date_declined` datetime NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `ewb_declined_history`
@@ -3001,7 +3001,7 @@ CREATE TABLE `ewb_verification_history` (
   `address` varchar(255) NOT NULL,
   `remarks` varchar(255) NOT NULL,
   `verified_by` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `ewb_verification_history`
@@ -3022,7 +3022,7 @@ CREATE TABLE `excuse_letter` (
   `excuse_remarks` varchar(3000) NOT NULL,
   `created_by` varchar(255) NOT NULL,
   `created_date` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `excuse_letter`
@@ -3048,7 +3048,7 @@ CREATE TABLE `excuse_letter_history` (
   `created_by` varchar(255) NOT NULL,
   `position` varchar(255) NOT NULL,
   `created_date` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `excuse_letter_history`
@@ -3218,7 +3218,7 @@ INSERT INTO `folder` (`id`, `applicant_id`, `employee_id`, `deployment_id`, `fol
 CREATE TABLE `gender` (
   `id` int(11) NOT NULL,
   `gender` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `gender`
@@ -3243,7 +3243,7 @@ CREATE TABLE `job_title` (
   `code` varchar(100) NOT NULL,
   `description` varchar(255) NOT NULL,
   `is_deleted` tinyint(1) NOT NULL DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `job_title`
@@ -3700,7 +3700,7 @@ CREATE TABLE `loa` (
   `applicantname` varchar(255) NOT NULL,
   `appaddress` varchar(255) NOT NULL,
   `project_title` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `loa`
@@ -3722,7 +3722,7 @@ CREATE TABLE `loa_files` (
   `file_location` varchar(255) NOT NULL DEFAULT '',
   `date_modified` timestamp NOT NULL DEFAULT current_timestamp(),
   `status` tinyint(1) NOT NULL DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `loa_files`
@@ -3794,7 +3794,7 @@ CREATE TABLE `loa_maintenance_word` (
   `loa_tracker` varchar(50) NOT NULL,
   `effectivity_date` varchar(255) NOT NULL,
   `noa_remarks` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `loa_maintenance_word`
@@ -3972,7 +3972,7 @@ CREATE TABLE `log` (
   `Datelog` varchar(255) NOT NULL,
   `time` varchar(255) NOT NULL,
   `activitynya` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `log`
@@ -4187,7 +4187,7 @@ CREATE TABLE `mrf` (
   `is_approve` int(11) NOT NULL DEFAULT 0,
   `date_added` datetime NOT NULL DEFAULT current_timestamp(),
   `date_updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `mrf`
@@ -4218,7 +4218,7 @@ CREATE TABLE `mrf_access` (
   `access_code` varchar(255) NOT NULL,
   `dateto` varchar(255) NOT NULL,
   `emp_no` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `mrf_access`
@@ -4243,7 +4243,7 @@ CREATE TABLE `pcn_emp` (
   `department_unit` varchar(255) NOT NULL,
   `area` varchar(255) NOT NULL,
   `employment_status` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `pcn_emp`
@@ -4430,7 +4430,7 @@ CREATE TABLE `projects` (
   `is_deleted` varchar(255) DEFAULT '0',
   `approved_by` varchar(255) NOT NULL,
   `date_approved` datetime DEFAULT current_timestamp()
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `projects`
@@ -4481,7 +4481,7 @@ CREATE TABLE `ratings` (
   `date_project_status` varchar(255) NOT NULL,
   `is_deleted` int(11) NOT NULL DEFAULT 0,
   `date_added` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `ratings`
@@ -4555,7 +4555,7 @@ CREATE TABLE `recruitment_approve_history` (
   `address` varchar(255) NOT NULL,
   `remarks` varchar(3000) NOT NULL,
   `approved_by` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `recruitment_approve_history`
@@ -4577,7 +4577,7 @@ CREATE TABLE `region` (
   `regDesc` text DEFAULT NULL,
   `regCode` varchar(255) DEFAULT NULL,
   `tr` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `region`
@@ -4629,7 +4629,7 @@ CREATE TABLE `rejected_applicants_history` (
   `number_of_months` int(11) NOT NULL DEFAULT 3,
   `date_applied` datetime NOT NULL,
   `date_rejected` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- --------------------------------------------------------
 
@@ -4689,7 +4689,7 @@ CREATE TABLE `shortlist_details` (
   `datecreated` varchar(255) NOT NULL,
   `activity` varchar(255) NOT NULL,
   `project_id` int(11) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `shortlist_details`
@@ -4724,7 +4724,7 @@ CREATE TABLE `shortlist_master` (
   `deployment_status` varchar(255) NOT NULL DEFAULT 'FOR DEPLOYMENT',
   `project_status` varchar(255) NOT NULL DEFAULT 'FOR REQUEST',
   `date_backout` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `shortlist_master`
@@ -4776,7 +4776,7 @@ CREATE TABLE `sources` (
   `id` bigint(20) NOT NULL,
   `description` varchar(255) NOT NULL,
   `is_deleted` tinyint(4) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `sources`
@@ -4806,7 +4806,7 @@ CREATE TABLE `synch` (
   `id` int(11) NOT NULL,
   `katsing` varchar(255) NOT NULL,
   `datenow1` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `synch`
@@ -4828,7 +4828,7 @@ CREATE TABLE `tax_status` (
   `description` varchar(255) NOT NULL,
   `is_deleted` varchar(1) NOT NULL DEFAULT '0',
   `civil_status_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tax_status`
@@ -4859,7 +4859,7 @@ INSERT INTO `tax_status` (`id`, `code`, `description`, `is_deleted`, `civil_stat
 CREATE TABLE `track` (
   `id` int(11) NOT NULL,
   `appno` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `track`
@@ -5275,7 +5275,7 @@ CREATE TABLE `users` (
   `uname` varchar(255) NOT NULL,
   `pname` varchar(255) NOT NULL,
   `approve` varchar(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `users`

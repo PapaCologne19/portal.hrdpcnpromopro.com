@@ -124,13 +124,15 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                     <span class="fw-semibold d-block mb-1">Deployed</span>
                                                     <?php
                                                     $requested_by_id = $_SESSION['user_id'];
-                                                    $query = "SELECT employee.*, project.*, request.*, 
+                                                    $query = "SELECT employee.*, project.*, request.*, deployment.*,
                                                     DATE_FORMAT(date_requested, '%M %d, %Y') AS date_requested,
                                                     DATE_FORMAT(request.start_date, '%M %d, %Y') AS start_date, 
-                                                    DATE_FORMAT(request.end_date, '%M %d, %Y') AS end_date
-                                                    FROM employees employee, projects project, loa_requests request
+                                                    DATE_FORMAT(request.end_date, '%M %d, %Y') AS end_date,
+                                                    deployment.id AS deployment_id
+                                                    FROM employees employee, projects project, loa_requests request, deployment deployment
                                                     WHERE employee.id = request.employee_id
                                                     AND project.id = request.project_id
+                                                    AND employee.id = deployment.employee_id
                                                     AND request.request_status = 'DEPLOYED'
                                                     AND request.requested_by_id = '$requested_by_id'";
                                                     $result = $link->query($query);
@@ -154,13 +156,20 @@ if (isset($_SESSION['username'], $_SESSION['password'])) {
                                                     <?php
                                                     date_default_timezone_set('Asia/Manila');
                                                     $today = date('Y-m-d');
-                                                    $sql = "SELECT employee.*, deployment.*, request.*
-                                                                FROM employees employee, deployment deployment, loa_requests request
-                                                                WHERE employee.id = request.employee_id
-                                                                AND employee.id = deployment.employee_id
-                                                                AND request.request_status = 'DEPLOYED'
-                                                                AND loa_end_date <= '$today'
-                                                                AND request.requested_by_id = '" . $_SESSION['user_id'] . "'";
+                                                    $sql = "SELECT employee.*, deployment.*, request.*,
+                                                    DATE_FORMAT(date_requested, '%M %d, %Y') AS date_requested,
+                                                    DATE_FORMAT(loa_start_date, '%M %d, %Y') AS loa_start_date,
+                                                    DATE_FORMAT(loa_end_date, '%M %d, %Y') AS loa_end_date,
+                                                    employee.id AS employee_id,
+                                                    deployment.id AS deployment_id
+                                                    FROM employees employee, deployment deployment, loa_requests request
+                                                    WHERE employee.id = request.employee_id
+                                                    AND employee.id = deployment.employee_id
+                                                    AND request.request_status = 'DEPLOYED'
+                                                    AND loa_end_date <= '$today'
+                                                    AND loa_start_date != ''
+                                                    AND loa_end_date != ''
+                                                    AND request.requested_by_id = '" . $_SESSION['user_id'] . "'";
                                                     $res = $link->query($sql);
                                                     $expired = $res->num_rows;
                                                     ?>

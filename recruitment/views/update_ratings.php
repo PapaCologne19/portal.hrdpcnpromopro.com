@@ -450,19 +450,19 @@ $id = $_POST['id'];
                                 <input type="text" class="form-control" name="IQ" maxlength="2" value="<?php echo $rowed['IQ'] ?>">
                             </div>
                             <div class="col-md-8">
-                                <label for="" class="" maxlength="2">IQ</label>
+                                <label>IQ</label>
                             </div>
                             <div class="col-md-4">
                                 <input type="text" name="english" class="form-control" value="<?php echo $rowed['english'] ?>">
                             </div>
                             <div class="col-md-8">
-                                <label for="" class="" maxlength="2">English</label>
+                                <label>English</label>
                             </div>
                             <div class="col-md-4">
                                 <input type="text" name="math" class="form-control" value="<?php echo $rowed['math'] ?>">
                             </div>
                             <div class="col-md-8">
-                                <label for="" class="" maxlength="2">Math</label>
+                                <label>Math</label>
                             </div>
                         </div>
                     </div>

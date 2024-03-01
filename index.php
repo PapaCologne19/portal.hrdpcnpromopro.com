@@ -8,7 +8,7 @@ date_default_timezone_set('Asia/Manila');
 $date = date('D : F d, Y');
 
 // Check if the CSRF token is not already set
-$_SESSION['token'] = bin2hex(random_bytes(32));
+// $_SESSION['token'] = bin2hex(random_bytes(32));
 
 ?>
 <html>
@@ -91,7 +91,7 @@ $_SESSION['token'] = bin2hex(random_bytes(32));
             <font color="white">LOG IN</font>
         </h2>
         <form action="action.php" method="POST">
-            <input type="hidden" name="token" value="<?php echo $_SESSION['token'] ?>">
+            <!-- <input type="hidden" name="token" value="<?php echo $_SESSION['token'] ?>"> -->
             <div class="form-group mt-3">
                 <label class="form-label">
                     <font color="white">Username</font>

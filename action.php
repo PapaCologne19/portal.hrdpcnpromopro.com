@@ -9,11 +9,11 @@ $date = date('D : F d, Y');
 $dtnow = date("m/d/Y H:i:s");
     
 if (isset($_POST['submit_button'])) {
-    if (!isset($_POST['token']) || $_SESSION['token'] !== $_POST['token']) {
-        $_SESSION['errorMessage'] = "CSRF token validation failed";
-        header("Location: index.php");
-        exit(0);
-    }
+    // if (!isset($_POST['token']) || $_SESSION['token'] !== $_POST['token']) {
+    //     $_SESSION['errorMessage'] = "CSRF token validation failed";
+    //     header("Location: index.php");
+    //     exit(0);
+    // }
     
     $Username = $link->real_escape_string($_POST['username']);
     $Password = $link->real_escape_string($_POST['password']);

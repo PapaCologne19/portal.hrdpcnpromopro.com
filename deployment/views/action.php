@@ -341,7 +341,6 @@ if (isset($_POST['create_loa'])) {
   exit(0);
 }
 
-
 // For Updating LOA
 if (isset($_POST['update_loa'])) {
   $id = mysqli_real_escape_string($link, preg_replace('/\s+/', ' ', ($_POST['id'])));
